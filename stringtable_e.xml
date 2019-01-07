@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Emitter Editor">
+	<Package name="tips">
+		<Container name="Tooltips">
+			<Key ID="STR_HNEG_ped_angle_tip">
+				<Original>Float number which determines starting angle of the particle</Original>
+				<English>Float number which determines starting angle of the particle</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_attach_tip">
+				<Original>Object/object selection name to attach this particle to.\nNOTE: this changes 'position' to relative to the object instead of world position.\nIn case of selecting a selection off-set is set automagically.</Original>
+				<English>Object/object selection name to attach this particle to.\nNOTE: this changes 'position' to relative to the object instead of world position.\nIn case of selecting a selection off-set is set automagically.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_attachsel_tip">
+				<Original>The selection on which the emitter is attached to, if any.</Original>
+				<English>The selection on which the emitter is attached to, if any.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_beforeDestroyScript_tip">
+				<Original>Name of/path to the script to run right before destroying the particle.\nPosition of the particle is passed as '_this' variable</Original>
+				<English>Name of/path to the script to run right before destroying the particle.\nPosition of the particle is passed as '_this' variable</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_bounceOnSurface_tip">
+				<Original>Speed loss coef at collision with ground, 0-1 for collisions, -1 disable collision. Default value -1.\nShould be used soberly, it has significant impact on performance.</Original>
+				<English>Speed loss coef at collision with ground, 0-1 for collisions, -1 disable collision. Default value -1.\nShould be used soberly, it has significant impact on performance.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_count_tip">
+				<Original>Number of animation frames to play.\nStarts with 1, not 0 as with index.</Original>
+				<English>Number of animation frames to play.\nStarts with 1, not 0 as with index.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_dropInterval_tip">
+				<Original>Interval of emitting particles from particle source, in seconds.</Original>
+				<English>Interval of emitting particles from particle source, in seconds.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_index_tip">
+				<Original>Anim Starting Row (starts at 0).</Original>
+				<English>Anim Starting Row (starts at 0).</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_lifeTime_tip">
+				<Original>Life time of the particle, in seconds.</Original>
+				<English>Life time of the particle, in seconds.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_loop_tip">
+				<Original>Loop the particle animation.\nUnChecked = no loop, checked = loop.</Original>
+				<English>Loop the particle animation.\nUnchecked = no loop, checked = loop.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_ntieth_tip">
+				<Original>Anim Divisor.\nBasically the line length of the given sprites texture.\nFor example 'Universal' length is 16.</Original>
+				<English>Anim Divisor.\nBasically the line length of the given sprites texture.\nFor example 'Universal' length is 16.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_moveVelocity_tip">
+				<Original>Velocity vector (x, y, z) of the particle direction and speed in m/s.</Original>
+				<English>Velocity vector (x, y, z) of the particle direction and speed in m/s.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_onSurface_tip">
+				<Original>Placing of particle on (water) surface on start of it's existence, works only if circleRadius > 0.\nUnchecked = not on surface, checked = on surface.</Original>
+				<English>Placing of particle on (water) surface on start of it's existence, works only if circleRadius > 0.\nUnchecked = not on surface, checked = on surface.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_onTimerScript_tip">
+				<Original>Name of/path to the script to run every period determined by the TimerPeriod property.\nPosition of the particle is passed in '_this' variable.</Original>
+				<English>Name of/path to the script to run every period determined by the TimerPeriod property.\nPosition of the particle is passed in '_this' variable.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_position_tip">
+				<Original>3D world coordinate (x, y, z), if attached to object position relative to that object.</Original>
+				<English>3D world coordinate (x, y, z), if attached to object position relative to that object.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_randomDirectionIntensity_tip">
+				<Original>Each MoveVelocity vector component will be changed with random value at interval defined with RandomDirectionPeriod.\nChange value is determined between 0 and RandomDirectionIntensity.</Original>
+				<English>Each MoveVelocity vector component will be changed with random value at interval defined with RandomDirectionPeriod.\nChange value is determined between 0 and RandomDirectionIntensity.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_randomDirectionPeriod_tip">
+				<Original>Interval in which a random change of the velocity vector happens, in seconds.</Original>
+				<English>Interval in which a random change of the velocity vector happens, in seconds.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_rotationVelocity_tip">
+				<Original>Float number which determines number of rotations particle does in one second.</Original>
+				<English>Float number which determines number of rotations particle does in one second.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_rotationVelocityVar_tip">
+				<Original>Randomizer for the RotationVelocity in 'Basic Params'.\nInterpolates a random value between the original and this.</Original>
+				<English>Randomizer for the RotationVelocity in 'Basic Params'.\nInterpolates a random value between the original and this.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_rubbing_tip">
+				<Original>Float number, amount of air friction on the particle.\n0 - no impact (as if the particle was in vacuum).</Original>
+				<English>Float number, amount of air friction on the particle.\n0 - no impact (as if the particle was in vacuum).</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_sprite_tip">
+				<Original>Name of the shape associated with the particle.\nAs in a model onto a certain particle texture is applied.</Original>
+				<English>Name of the shape associated with the particle.\nAs in a model onto a certain particle texture is applied.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_timerPeriod_tip">
+				<Original>The interval of calling the 'OnTimer' event which executes the 'onTimerScript', in seconds.</Original>
+				<English>The interval of calling the 'OnTimer' event which executes the 'onTimerScript', in seconds.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_type_tip">
+				<Original>Type of particle.\n'Billboard' = 2D (for example fire and smoke), 'SpaceObject' = 3D (for example flies).</Original>
+				<English>Type of particle.\n'Billboard' = 2D (for example fire and smoke), 'SpaceObject' = 3D (for example flies).</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_volume_tip">
+				<Original>Volume of the particle (m^3).\nAffects the way the particle interacts with the surrounding air.</Original>
+				<English>Volume of the particle (m^3).\nAffects the way the particle interacts with the surrounding air.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_weight_tip">
+				<Original>Mass of the particle, in kg.\nAffects the way the particle interacts with the surrounding air.</Original>
+				<English>Mass of the particle, in kg.\nAffects the way the particle interacts with the surrounding air.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_size_tip">
+				<Original>Size of the particle, in meters.\nParticle is scaled to size within the time the animation step lasts so if previous size is different you will see the particle change size accordingly.</Original>
+				<English>Size of the particle, in meters.\nParticle is scaled to size within the time the animation step lasts so if previous size is different you will see the particle change size accordingly.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_animationSpeed_tip">
+				<Original>Speed to play given animation phases at. Higher the number the faster the speed.\nIf frames to play ('Count' property in 'Basic Params') is set higher than 1 this has no visible effect.</Original>
+				<English>Speed to play given animation phases at. Higher the number the faster the speed.\nIf frames to play ('Count' property in 'Basic Params') is set higher than 1 this has no visible effect.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_color_sel_tip">
+				<Original>This shows which color is being edited for the given animation step, color or emissive color.</Original>
+				<English>This shows which color is being edited for the given animation step, color or emissive color.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_color_prew_tip">
+				<Original>This shows the color preview.\nNOTE:\n- Does not necessarily appear 1:1 with the resulting particle color.\n- Alpha/Luminance does not affect this preview.</Original>
+				<English>This shows the color preview.\nNOTE:\n- Does not necessarily appear 1:1 with the resulting particle color.\n- Alpha/Luminance does not affect this preview.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_colorR_tip">
+				<Original>Red</Original>
+				<English>Red</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_colorG_tip">
+				<Original>Green</Original>
+				<English>Green</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_colorB_tip">
+				<Original>Blue</Original>
+				<English>Blue</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_alphaLum_tip">
+				<Original>Switch alpha channel to luminance.\nAs in how illuminated flame is in NVG or how much it shows heat signature.\nValues range from 0 to -10.\nUnticked = normal alpha channel, ticked = luminance.</Original>
+				<English>Switch alpha channel to luminance.\nAs in how illuminated flame is in NVG or how much it shows heat signature.\nValues range from 0 to -10.\nUnticked = normal alpha channel, ticked = luminance.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_colorA_tip">
+				<Original>Alpha/luminance</Original>
+				<English>Alpha/luminance</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_colorPreset_tip">
+				<Original>Select color preset to use.</Original>
+				<English>Select color preset to use.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_colorPreset_savebutton_tip">
+				<Original>Opens a dialog to save custom color preset.</Original>
+				<English>Opens a dialog to save custom color preset.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_colorPreset_delbutton_tip">
+				<Original>Delete currently selected color preset</Original>
+				<English>Delete currently selected color preset</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_saveColorpreset_tip">
+				<Original>Give a name for your color preset.</Original>
+				<English>Give a name for your color preset.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_saveColorpreset_Btnok_tip">
+				<Original>Saves the currently selected animation step's color as a preset with the given name.</Original>
+				<English>Saves the currently selected animation step's color as a preset with the given name.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_saveColorpreset_Btncnl_tip">
+				<Original>Back to Render Params</Original>
+				<English>Back to Render Params</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_colorVar_tip">
+				<Original>Random color variation between the original color and this, applied to each animation step color separately.</Original>
+				<English>Random color variation between the original color and this, applied to each animation step color separately.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_colorVar_prew_tip">
+				<Original>Color preview.</Original>
+				<English>Color preview.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_emissiveColor_tip">
+				<Original>Select emissive color as editable color.</Original>
+				<English>Select emissive color as editable color.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_emissivecolor_data_tip">
+				<Original>Resulting emissive color array.</Original>
+				<English>Resulting emissive color array.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_phasenr_tip">
+				<Original>Animation frame number, starts from 0.</Original>
+				<English>Animation frame number, starts from 0.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_btnPrev_tip">
+				<Original>Previous animation frame.</Original>
+				<English>Previous animation frame.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_btnNext_tip">
+				<Original>Next animation frame.</Original>
+				<English>Next animation frame.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_phasenr_cnt_tip">
+				<Original>Animation frame count.</Original>
+				<English>Animation frame count.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_btnNeg_tip">
+				<Original>Remove animation frame.\nNOTE that the frame to be removed is the last of the animation's frames, NOT the current selected one.</Original>
+				<English>Remove animation frame.\nNOTE that the frame to be removed is the last of the animation's frames, NOT the current selected one.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_btnPos_tip">
+				<Original>Add animation frame.\nNOTE that the frame is added after the last existing frame.</Original>
+				<English>Add animation frame.\nNOTE that the frame is added after the last existing frame.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_circleVelocity_tip">
+				<Original>Velocity of the particle created within the circle.\nVelocity is transformed and added to total velocity.</Original>
+				<English>Velocity of the particle created within the circle.\nVelocity is transformed and added to total velocity.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_circleRadius_tip">
+				<Original>Sets the radius of the circle, in meters (radius of 1m = 2m diameter).</Original>
+				<English>Sets the radius of the circle, in meters (radius of 1m = 2m diameter).</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_lifeTimeVar_tip">
+				<Original>Random interpolation for the life time of the particle, in seconds.\nAs in randomly picks life time for the particle between the 'LifeTime' property and this.</Original>
+				<English>Random interpolation for the life time of the particle, in seconds.\nAs in randomly picks life time for the particle between the 'LifeTime' property and this.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_color_tip">
+				<Original>Select color as editable color.</Original>
+				<English>Select color as editable color.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_color_data_tip">
+				<Original>Resulting color array.</Original>
+				<English>Resulting color array.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_angleVar_tip">
+				<Original>Float number, a random interpolation between the 'Angle' property in 'Basic Params' and this.</Original>
+				<English>Float number, a random interpolation between the 'Angle' property in 'Basic Params' and this.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_bounceOnSurfaceVar_tip">
+				<Original>Randomizer for the 'bounceOnSurface' param in 'Basic Params'.\n0-1 for collisions, -1 disable collision.</Original>
+				<English>Randomizer for the 'bounceOnSurface' param in 'Basic Params'.\n0-1 for collisions, -1 disable collision.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_sizeVar_tip">
+				<Original>Randomizer for the animation scale (I assume for each step individually).\nInterpolates a random value between the original and this.</Original>
+				<English>Randomizer for the animation scale (I assume for each step individually).\nInterpolates a random value between the original and this.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_colorVarR_tip">
+				<Original>Randomizer for red.\nEach animation frame color is randomized independently.</Original>
+				<English>Randomizer for red.\nEach animation frame color is randomized independently.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_colorVarG_tip">
+				<Original>Randomizer for green.\nEach animation frame color is randomized independently.</Original>
+				<English>Randomizer for green.\nEach animation frame color is randomized independently.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_colorVarB_tip">
+				<Original>Randomizer for blue.\nEach animation frame color is randomized independently.</Original>
+				<English>Randomizer for blue.\nEach animation frame color is randomized independently.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_colorVarA_tip">
+				<Original>Randomizer for alpha/luminance.\nEach animation frame color is randomized independently.</Original>
+				<English>Randomizer for alpha/luminance.\nEach animation frame color is randomized independently.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_moveVelocityVar_tip">
+				<Original>A velocity vector for randomizing the original velocity even more,\ninterpolated between the original velocity, original RandomDirectionIntensity and -Perdiod, and this.</Original>
+				<English>A velocity vector for randomizing the original velocity even more,\ninterpolated between the original velocity, original RandomDirectionIntensity and -Perdiod, and this.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_positionVar_tip">
+				<Original>Random interpolation for the particle starting position between the 'Position' in 'Basic Params' and this.</Original>
+				<English>Random interpolation for the particle starting position between the 'Position' in 'Basic Params' and this.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_randomDirectionIntensityVar_tip">
+				<Original>Randomizer for the RandomDirectionIntensity in 'Basic Params'.\nInterpolates a random value between the original and this.</Original>
+				<English>Randomizer for the RandomDirectionIntensity in 'Basic Params'.\nInterpolates a random value between the original and this.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_randomDirectionPeriodVar_tip">
+				<Original>Randomizer for the RandomDirectionPeriod in 'Basic Params'.\nInterpolates a random value between the original and this.</Original>
+				<English>Randomizer for the RandomDirectionPeriod in 'Basic Params'.\nInterpolates a random value between the original and this.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_damageType_tip">
+				<Original>Type of damage. Only type 'Fire' is available.</Original>
+				<English>Type of damage. Only type 'Fire' is available.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_coreDistance_tip">
+				<Original>How far from the core the core damage reaches, in meters.</Original>
+				<English>How far from the core the core damage reaches, in meters.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_coreIntensity_tip">
+				<Original>Amount of damage inflicted in the center of the emitter.</Original>
+				<English>Amount of damage inflicted in the center of the emitter.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_damageTime_tip">
+				<Original>The interval to inflict the CoreIntensity damage with, in seconds.</Original>
+				<English>The interval to inflict the CoreIntensity damage with, in seconds.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_specDieOut_tip">
+				<Original>Emitter delete timer, in seconds.\nApplies to current selected emitter,\nor if emitter is in a set applies it to all emitters in the set.\nNOTE: does not make the emitter die out gradually, just deleted it after the given amount of time.</Original>
+				<English>Emitter delete timer, in seconds.\nApplies to current selected emitter,\nor if emitter is in a set applies it to all emitters in the set.\nNOTE: does not make the emitter die out gradually, just deleted it after the given amount of time.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_specshowHide_tip">
+				<Original>Emitter/emitter set will 'follow' the hideObject state of the entity it/they are atteched on.\nIf object is hidden emitters will stop emitting, if object is shown emitters emit again.\nNOTE that this spawns a looping script for each entity this is enabled on.</Original>
+				<English>Emitter/emitter set will 'follow' the hideObject state of the entity it/they are atteched on.\nIf object is hidden emitters will stop emitting, if object is shown emitters emit again.\nNOTE that this spawns a looping script for each entity this is enabled on.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_specImport_tip">
+				<Original>Import BIS effect module (fire, smoke) into the tool.\nNOTE: IF NO MODULE IS SELECTED ALL FIRE AND SMOKE MODULES PRESENT IN THE SCENARIO WILL BE IMPORTED.\nImported module(s) are deleted and replaced with emitters.</Original>
+				<English>Import BIS effect module (fire, smoke) into the tool.\nNOTE: IF NO MODULE IS SELECTED ALL FIRE AND SMOKE MODULES PRESENT IN THE SCENARIO WILL BE IMPORTED.\nImported module(s) are deleted and replaced with emitters.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_specDiagParticles_tip">
+				<Original>Enable/disable the 'Particles' diagnostics.\nDisplays particles diagnostic data.\nUnfortunately the way this picks names to show takes all sorts of script names so it blocks some count data...</Original>
+				<English>Enable/disable the 'Particles' diagnostics.\nDisplays particles diagnostic data.\nUnfortunately the way this picks names to show takes all sorts of script names so it blocks some count data...</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_specDiagParticleNames_tip">
+				<Original>Enable/disable the 'ParticleNames' diagnostics.\nAttaches a name to each particle effect used so that it may be identified.\nMeans that a name is assigned to each particle, not the emitter.</Original>
+				<English>Enable/disable the 'ParticleNames' diagnostics.\nAttaches a name to each particle effect used so that it may be identified.\nMeans that a name is assigned to each particle, not the emitter.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_savepreset_tip">
+				<Original>Give a name for your preset.</Original>
+				<English>Give a name for your preset.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_savepreset_desc_tip">
+				<Original>(OPTIONAL) Give a description for your preset.\nThis description is shown as a tooltip when you hover over the preset name in the 'Load Preset' dialog</Original>
+				<English>(OPTIONAL) Give a description for your preset.\nThis description is shown as a tooltip when you hover over the preset name in the 'Load Preset' dialog</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_savepreset_whlset_tip">
+				<Original>Toggles saving the whole set (in which the current emitter belongs to) as a preset.\nNeeds equal sized set to import to when used.</Original>
+				<English>Toggles saving the whole set (in which the current emitter belongs to) as a preset.\nNeeds equal sized set to import to when used.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_savepreset_Btnok_tip">
+				<Original>Saves the currently selected emitter's params as a preset with the given name.</Original>
+				<English>Saves the currently selected emitter's params as a preset with the given name.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_savepreset_Btncnl_tip">
+				<Original>Back to 'Export' leaf</Original>
+				<English>Back to 'Export' leaf</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_export_button_tip">
+				<Original>Export emitter params into the .rpt and the clipboard.\nExports all params (including lights*) unless the 'current only' box is checked.\n*Exclude lights by checking the 'exclude light emitters' box.</Original>
+				<English>Export emitter params into the .rpt and the clipboard.\nExports all params (including lights*) unless the 'current only' box is checked.\n*Exclude lights by checking the 'exclude light emitters' box.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_export_curOnly_cb_tip">
+				<Original>Export only the current selected particle params.\nLight params can be exported via light editor export</Original>
+				<English>Export only the current selected particle params.\nLight params can be exported via light editor export</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_export_ptclOnly_cb_tip">
+				<Original>Export only particle emitter params even if emitter set includes a light emitter.\nNOTE that if 'export current only' is ticked this has no effect</Original>
+				<English>Export only particle emitter params even if emitter set includes a light emitter.\nNOTE that if 'export current only' is ticked this has no effect</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_import_button_tip">
+				<Original>'Upload' params to selected emitter from above fields.\nFor pasting particle params from some script and such..</Original>
+				<English>'Upload' params to selected emitter from above fields.\nFor pasting particle params from some script and such..</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_importpre_button_tip">
+				<Original>Opens a dialog for loading a saved particle preset into selected particle(s).</Original>
+				<English>Opens a dialog for loading a saved particle preset into selected particle(s).</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_savepre_button_tip">
+				<Original>Opens a dialog to save the selected emitter's params a preset.</Original>
+				<English>Opens a dialog to save the selected emitter's params a preset.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_export_pagesel_tip">
+				<Original>Scroll through parameters from selected emitter set.\nShows the name of the emitter which parameters are currently displayed in the fields.</Original>
+				<English>Scroll through parameters from selected emitter set.\nShows the name of the emitter which parameters are currently displayed in the fields.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_clearexp_button_tip">
+				<Original>Clears the 'export fields' of all data.</Original>
+				<English>Clears the 'export fields' of all data.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_attachToSel_tip">
+				<Original>List of named selections on selected object model.\nNOTE: By default lists only selections that are off from object position.\nLists selections that can be retrieved via scripting.</Original>
+				<English>List of named selections on selected object model.\nNOTE: By default lists only selections that are off from object position.\nLists selections that can be retrieved via scripting.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_attachToSel_Btnok_tip">
+				<Original>Confirm attach</Original>
+				<English>Confirm Attach</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_attachToSel_Btncnl_tip">
+				<Original>Cancel the attach</Original>
+				<English>Cancel the attach</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_attachToSel_showall_tip">
+				<Original>Show all selections (obtainable via scripting).</Original>
+				<English>Show all selections (obtainable via scripting).</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_importpreset_tip">
+				<Original>Select particle preset to load</Original>
+				<English>Select particle preset to load</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_importpreset_Btnok_tip">
+				<Original>Load the selected preset params into the selected emitter</Original>
+				<English>Load the selected preset params into the selected emitter</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_importpreset_Btncnl_tip">
+				<Original>Back to Export</Original>
+				<English>Back to Export</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_importpreset_Btndel_tip">
+				<Original>Delete selected preset.</Original>
+				<English>Delete selected preset.</English>
+			</Key>
+			<Key ID="STR_HNEG_led_tbx_tip1">
+				<Original>Edit lightpoint parameters</Original>
+				<English>Edit lightpoint parameters</English>
+			</Key>
+			<Key ID="STR_HNEG_led_tbx_tip2">
+				<Original>Save light emitter params as preset</Original>
+				<English>Save light emitter params as preset</English>
+			</Key>
+			<Key ID="STR_HNEG_led_tbx_tip3">
+				<Original>'Load' param preset 'into' a light emitter</Original>
+				<English>'Load' param preset 'into' a light emitter</English>
+			</Key>
+			<Key ID="STR_HNEG_led_tbx_tip4">
+				<Original>Export/import light params</Original>
+				<English>Export/import light params</English>
+			</Key>
+			<Key ID="STR_HNEG_led_color_tip">
+				<Original>Main color for the light. RGB.</Original>
+				<English>Main color for the light. RGB.</English>
+			</Key>
+			<Key ID="STR_HNEG_led_ambient_tip">
+				<Original>Ambient color for the light. RGB.</Original>
+				<English>Ambient color for the light. RGB.</English>
+			</Key>
+			<Key ID="STR_HNEG_led_colorLink_tip">
+				<Original>Link main color and ambient color.n\As in make ambient color the same as main color (follows main color sliders).</Original>
+				<English>Link main color and ambient color.n\As in make ambient color the same as main color (follows main color sliders).</English>
+			</Key>
+			<Key ID="STR_HNEG_led_attMain_tip">
+				<Original>Light attenuation parameters</Original>
+				<English>Light attenuation parameters</English>
+			</Key>
+			<Key ID="STR_HNEG_led_start_tip">
+				<Original></Original>
+				<English></English>
+			</Key>
+			<Key ID="STR_HNEG_led_constant_tip">
+				<Original></Original>
+				<English></English>
+			</Key>
+			<Key ID="STR_HNEG_led_linear_tip">
+				<Original></Original>
+				<English></English>
+			</Key>
+			<Key ID="STR_HNEG_led_quadratic_tip">
+				<Original></Original>
+				<English></English>
+			</Key>
+			<Key ID="STR_HNEG_led_hardlimitstart_tip">
+				<Original></Original>
+				<English></English>
+			</Key>
+			<Key ID="STR_HNEG_led_hardlimitend_tip">
+				<Original></Original>
+				<English></English>
+			</Key>
+			<Key ID="STR_HNEG_led_intensity_tip">
+				<Original>Light intensity (brightness).\nNumeric value (scalar)</Original>
+				<English>Light intensity (brightness).\nNumeric value (scalar)</English>
+			</Key>
+			<Key ID="STR_HNEG_led_useFlare_tip">
+				<Original>Toggle light flare on/off.nMeans the halo thingy around the light..</Original>
+				<English>Toggle light flare on/off.nMeans the halo thingy around the light..</English>
+			</Key>
+			<Key ID="STR_HNEG_led_flaresize_tip">
+				<Original>Size of the flare.n\In meters.</Original>
+				<English>Size of the flare.n\In meters.</English>
+			</Key>
+			<Key ID="STR_HNEG_led_flaremax_tip">
+				<Original>Maximun distance from how far the flare can be seen.n\In meters.</Original>
+				<English>Maximun distance from how far the flare can be seen.n\In meters.</English>
+			</Key>
+			<Key ID="STR_HNEG_led_daylight_tip">
+				<Original>Toggle light's visibility in daylight on/off.\n When checked the light will light up during daylight of the intensity is higher than the current light conditions.</Original>
+				<English>Toggle light's visibility in daylight on/off.\n When checked the light will light up during daylight of the intensity is higher than the current light conditions.</English>
+			</Key>
+			<Key ID="STR_HNEG_led_pos_tip">
+				<Original>Position of the light emitter.\nIf attached to an object position is relative to that object.</Original>
+				<English>Position of the light emitter.\nIf attached to an object position is relative to that object.</English>
+			</Key>
+			<Key ID="STR_HNEG_led_export_button_tip">
+				<Original>Export light params to the clipboard and to the .rpt</Original>
+				<English>Export light params to the clipboard and to the .rpt</English>
+			</Key>
+			<Key ID="STR_HNEG_led_export_curOnly_cb_tip">
+				<Original>Export only the current selected light's params.n\When unchecked 'EXPORT' will export all light emitters in the scenario.</Original>
+				<English>Export only the current selected light's params.n\When unchecked 'EXPORT' will export all light emitters in the scenario.</English>
+			</Key>
+			<Key ID="STR_HNEG_led_import_button_tip">
+				<Original>'Upload' params to selected emitter from above edit fields.\nFor pasting light params from some script and such..</Original>
+				<English>'Upload' params to selected emitter from above edit fields.\nFor pasting light params from some script and such..</English>
+			</Key>
+			<Key ID="STR_HNEG_led_attach_tip">
+				<Original>Object the light is attached to</Original>
+				<English>Object the light is attached to</English>
+			</Key>
+			<Key ID="STR_HNEG_led_attachsel_tip">
+				<Original>Selection the light is attached to on the object, if any.</Original>
+				<English>Selection the light is attached to on the object, if any.</English>
+			</Key>
+			<Key ID="STR_HNEG_led_dieout_tip">
+				<Original>Light emitter delete timer, in seconds.\nApplies to current selected emitter,\nor if emitter is in a particle emitter set uses that set's dieout which can only be edited via the particle editor.</Original>
+				<English>Light emitter delete timer, in seconds.\nApplies to current selected emitter,\nor if emitter is in a particle emitter set uses that set's dieout which can only be edited via the particle editor.</English>
+			</Key>
+			<Key ID="STR_HNEG_led_savepreset_tip">
+				<Original>Give a name for your light preset.</Original>
+				<English>Give a name for your light preset.</English>
+			</Key>
+			<Key ID="STR_HNEG_led_savepreset_Btnok_tip">
+				<Original>Saves the currently selected light's params as a preset with the given name.</Original>
+				<English>Saves the currently selected light's params as a preset with the given name.</English>
+			</Key>
+			<Key ID="STR_HNEG_led_importpreset_tip">
+				<Original>Select light preset to load</Original>
+				<English>Select light preset to load</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefs_select_tip">
+				<Original>Toggle the use of default emitter set on/off.\nWhen unchecked SHIFT + INSERT will not insert the default emitter set.</Original>
+				<English>Toggle the use of default emitter set on/off.\nWhen unchecked SHIFT + INSERT will not insert the default emitter set.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefs_with3DEN_tip">
+				<Original>Start Emitter 3Ditor by default with 3DEN.</Original>
+				<English>Start Emitter 3Ditor by default with 3DEN.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefs_whichtool_tip">
+				<Original>Select editor section to start the Emitter 3Ditor into with Eden.</Original>
+				<English>Select editor section to start the Emitter 3Ditor into with Eden.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefs_minimized_tip">
+				<Original>Start Emitter3Ditor hidden (running but UI not shown).\nPress CTRL + BACKSPACE to 'maximize'.</Original>
+				<English>Start Emitter3Ditor hidden (running but UI not shown).\nPress CTRL + BACKSPACE to 'maximize'.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefs_emtrnames_tip">
+				<Original>Show emitter names in Eden (both map and 3D view).</Original>
+				<English>Show emitter names in Eden (both map and 3D view).</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefs_autosect_tip">
+				<Original>When this is selected tool section will automatically change according to emitter type when emitter is selected.\nAs in selecting a light emitter on the edit area or from the entity list will change tool UI to Light 3Ditor, same with particle emitters.</Original>
+				<English>When this is selected tool section will automatically change according to emitter type when emitter is selected.\nAs in selecting a light emitter on the edit area or from the entity list will change tool UI to Light 3Ditor, same with particle emitters.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefs_vnr_tip">
+				<Original>Emitter 3Ditor version</Original>
+				<English>Emitter 3Ditor version</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefs_noDataVal_tip">
+				<Original>Disables the data validation on the UI parameter fields.\nUse at your own risk....</Original>
+				<English>Disables the data validation on the UI parameter fields.\nUse at your own risk....</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefs_dataValCoef_tip">
+				<Original>Coef for the data validation 'timer'.\nAs in how much time it takes before the data validation kicks in. Put here so you can adjust that for your liking.\nMinimum value 1, maximum value 10.\nThe formula is 0.5 * coef. On array data it's 1.5 * coef max 8</Original>
+				<English>Coef for the data validation 'timer'.\nAs in how much time it takes before the data validation kicks in. Put here so you can adjust that for your liking.\nMinimum value 1, maximum value 10.\nThe formula is 0.5 * coef. On array data it's 1.5 * coef max 8</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefs_noSSSLave_tip">
+				<Original>Disables the Surface snapping 'slavery' when dragging emitters with Surface Snapping on, as in when dragging emitters they will not follow object surfaces regardless of Surface Snapping state.\nUseful to turn this off if the feature causes you performance issues.\nNOTE that does NOT affect the Global Attach functionality with Surface Snapping.</Original>
+				<English>Disables the Surface snapping 'slavery' when dragging emitters with Surface Snapping on, as in when dragging emitters they will not follow object surfaces regardless of Surface Snapping state.\nUseful to turn this off if the feature causes you performance issues.\nNOTE that does NOT affect the Global Attach functionality with Surface Snapping.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefs_autododge_tip">
+				<Original>Enables "Eden auto-dodging" feature.\nMeans that when this is enabled the tool UI will automatically fade out/in depending on if the mouse cursor is over either of the Eden side panels.\nThis feature can be temporarily disabled by pressing and holding down CTRL when entering the side panel areas.</Original>
+				<English>Enables "Eden auto-dodging" feature.\nMeans that when this is enabled the tool UI will automatically fade out/in depending on if the mouse cursor is over either of the Eden side panels.\nThis feature can be temporarily disabled by pressing and holding down CTRL when entering the side panel areas.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefs_noEdenHide_tip">
+				<Original>Disables hiding the tool UI with Eden UI when hiding it by pressing BACKSPACE.\nWhen this box NOT ticked the tool UI will hide with the Eden UI, and vice versa.</Original>
+				<English>Disables hiding the tool UI with Eden UI when hiding it by pressing BACKSPACE.\nWhen this box NOT ticked the tool UI will hide with the Eden UI, and vice versa.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefsdefault_button_tip">
+				<Original>Revert preferences to defaults.</Original>
+				<English>Revert preferences to defaults.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefsPops_button_tip">
+				<Original>Re-enable all tool pop-up messages disabled by checking the 'Don't show this message again' box</Original>
+				<English>Re-enable all tool pop-up messages disabled by checking the 'Don't show this message again' box</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefsRevert_button_tip">
+				<Original>Wipe everything edited with this tool from the scenario.\nUse when some error f's everything up to a point of no return..</Original>
+				<English>Wipe everything edited with this tool from the scenario.\nUse when some error f's everything up to a point of no return..</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_defineSet_button_tip">
+				<Original>Define the default emitter set. Opens a new dialog</Original>
+				<English>Define the default emitter set. Opens a new dialog</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefs_defSet_OKbutton_tip">
+				<Original>Approve your emitter default set.</Original>
+				<English>Approve your emitter default set.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefs_defSet_CANCELbutton_tip">
+				<Original>Return back to preferences. Default set unchanged.</Original>
+				<English>Return back to preferences. Default set unchanged.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefs_defSetEnbl1_tip">
+				<Original>Enable/Disable default set emitter.</Original>
+				<English>Enable/Disable default set emitter.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefs_defSetPtcltype1_tip">
+				<Original>Type of emitter: particle or light.</Original>
+				<English>Type of emitter: particle or light.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefs_defSetEfftype1_tip">
+				<Original>Type of effect: class, preset or selected emitter's params.</Original>
+				<English>Type of effect: class, preset or selected emitter's params.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefs_defSetClass1_tip">
+				<Original>Effect class or preset.</Original>
+				<English>Effect class or preset.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_prefs_ins_tip">
+				<Original>When pressing INSERT default emitter set will allways be inserted instead of one emitter.\nSHIFT+INSERT is default set insert shortcut IF THIS IS UNTICKED.</Original>
+				<English>When pressing INSERT default emitter set will allways be inserted instead of one emitter.\nSHIFT+INSERT is default set insert shortcut IF THIS IS UNTICKED.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_emitter_tip">
+				<Original>Currently selected emitter.\nPress 'INSERT' to insert a new emitter,\n\n or 'SHIFT+INSERT' to insert a set of emitters (depends on tool preferences if you have edited them).</Original>
+				<English>Currently selected emitter.\nPress 'INSERT' to insert a new emitter,\n\n or 'SHIFT+INSERT' to insert a set of emitters (depends on tool preferences if you have edited them).</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_emitter_delete_tip">
+				<Original>Delete selected emitter.\nREQUIRES DOUBLECLICK to avoid accidents ;)</Original>
+				<English>Delete selected emitter.\nREQUIRES DOUBLECLICK to avoid accidents ;)</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_emitter_emitterClass_clear_tip">
+				<Original>Clear emitter particle params and class.</Original>
+				<English>Clear emitter particle params and class.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_emitter_camOn_tip">
+				<Original>Move camera to selected emitter.\nCTRL + HOME shortcut.</Original>
+				<English>Move camera to selected emitter.\nCTRL + HOME shortcut.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_emitter_rename_tip">
+				<Original>Rename selected emitter.</Original>
+				<English>Rename selected emitter.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_emitter_attachMode_tip">
+				<Original>Select the desired atach mode:\n'Basic', 'Selection' or 'Global'</Original>
+				<English>Select the desired atach mode:\n'Basic', 'Selection' or 'Global'</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_emitterClass_tip">
+				<Original>Last/currently used particle class (from config) or preset.</Original>
+				<English>Last/currently used particle class (from config) or preset.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_toggle_emitters_tip">
+				<Original>Disable/Enable emitters.\nIn Eden only, previewing/playing the scenario the emitters still emit.\nHolding down CTRL while pressing this button disables/enables the selected emitters only (if any, all if none selected).</Original>
+				<English>Disable/Enable emitters.\nIn Eden only, previewing/playing the scenario the emitters still emit.\nHolding down CTRL while pressing this button disables/enables the selected emitters only (if any, all if none selected).</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_minimize_tip">
+				<Original>Hide the Emitter 3Ditor UI.\nSame as CTRL+BACKSPACE.</Original>
+				<English>Hide the Emitter 3Ditor UI.\nSame as CTRL+BACKSPACE.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_maximize_tip">
+				<Original>Reveal the Emitter 3Ditor UI.\nSame as CTRL+BACKSPACE.</Original>
+				<English>Reveal the Emitter 3Ditor UI.\nSame as CTRL+BACKSPACE.</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_section_select_ped_tip">
+				<Original>Switch to the particle editor section</Original>
+				<English>Switch to the particle editor section</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_section_select_led_tip">
+				<Original>Switch to the light editor section</Original>
+				<English>Switch to the light editor section</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_tbx1_tip">
+				<Original>Edit basic particle params (sprite)</Original>
+				<English>Edit basic particle params (sprite)</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_tbx2_tip">
+				<Original>Edit basic particle params (animation)</Original>
+				<English>Edit basic particle params (animation)</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_tbx3_tip">
+				<Original>Edit particle Random (setParticleRandom)</Original>
+				<English>Edit particle Random (setParticleRandom)</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_tbx4_tip">
+				<Original>Edit particle Circle (setParticleCircle)</Original>
+				<English>Edit particle Circle (setParticleCircle)</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_tbx5_tip">
+				<Original>Edit particle damage (setParticleFire)</Original>
+				<English>Edit particle damage (setParticleFire)</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_tbx6_tip">
+				<Original>Tool specific special actions</Original>
+				<English>Tool specific special actions</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_tbx7_tip">
+				<Original>Export particle params for scripting use.\nstored both in clipboard and the .rpt file</Original>
+				<English>Export particle params for scripting use.\nstored both in clipboard and the .rpt file</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_tbx8_tip">
+				<Original>Some tool settings</Original>
+				<English>Some tool settings</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_tbxFake_attach_tip">
+				<Original>Attach emitter(s) to an object's model named selection.</Original>
+				<English>Attach emitter(s) to an object's model named selection.</English>
+			</Key>
+			<Key ID="STR_HNEG_attNrl_tip">
+				<Original>Attach to object mode: Basic (object default position).</Original>
+				<English>Attach to object mode: Basic (object default position).</English>
+			</Key>
+			<Key ID="STR_HNEG_attSel_tip">
+				<Original>Attach to object mode: Selection (model named selection).</Original>
+				<English>Attach to object mode: Selection (model named selection).</English>
+			</Key>
+			<Key ID="STR_HNEG_attGlb_tip">
+				<Original>Attach to object mode: Anywhere on object.</Original>
+				<English>Attach to object mode: Anywhere on object.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_emtrAtt_useDefs_cb_tip">
+				<Original>Use default emitter set defined in tool preferences.</Original>
+				<English>Use default emitter set defined in tool preferences.</English>
+			</Key>
+			<Key ID="STR_HNEG_presLbCust_tip">
+				<Original>&lt;custom preset&gt;</Original>
+				<English>&lt;custom preset&gt;</English>
+			</Key>
+			<Key ID="STR_HNEG_classLstCust_tip">
+				<Original>Custom preset</Original>
+				<English>Custom preset</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_export_lock_tip">
+				<Original>'Locks' the 'export fields' so that they won't get auto-filled with data when selecting emitters.\nHandy if you wish to 'paste' the same imported params to several different emitters, or something..</Original>
+				<English>'Locks' the 'export fields' so that they won't get auto-filled with data when selecting emitters.\nHandy if you wish to 'paste' the same imported params to several different emitters, or something..</English>
+			</Key>
+			<Key ID="STR_HNEG_ped_emitter_cloner_tip">
+				<Original>Clone the selected emitter.</Original>
+				<English>Clone the selected emitter.</English>
+			</Key>
+			<!--<Key ID="STR__tip">
+				<Original></Original>
+				<English></English>
+			</Key>-->
+		</Container>
+		<Container name="Notes">
+			<Key ID="STR_HNEG_emed_ExportDone_note">
+				<Original>Emitter 3Ditor: Export to clipboard and .rpt, done</Original>
+				<English>Emitter 3Ditor: Export to clipboard and .rpt, done</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_ExportDoneCfg_note">
+				<Original>Emitter 3Ditor: Export in config format to clipboard and .rpt, done</Original>
+				<English>Emitter 3Ditor: Export in config format to clipboard and .rpt, done</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_setCountMismatch_note">
+				<Original>Emitter 3Ditor: Preset emitter set count and selected emitter set count mismatch. Can not load preset.</Original>
+				<English>Emitter 3Ditor: Preset emitter set count and selected emitter set count mismatch. Can not load preset.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_setTypesMismatch_note">
+				<Original>Emitter 3Ditor: Preset emitter set types and selected emitter set types mismatch. Can not load preset.</Original>
+				<English>Emitter 3Ditor: Preset emitter set types and selected emitter set types mismatch. Can not load preset.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_noPresSel_note">
+				<Original>Emitter 3Ditor: No preset selected.</Original>
+				<English>Emitter 3Ditor: No preset selected.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_pparsMissing_note">
+				<Original>Emitter 3Ditor: Particle params missing. Paste aborted.</Original>
+				<English>Emitter 3Ditor: Particle params missing. Paste aborted.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_noEmitter_note">
+				<Original>Emitter 3Ditor: No emitters inserted</Original>
+				<English>Emitter 3Ditor: No emitters inserted</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_nilInParams_note">
+				<Original>Emitter 3Ditor: Nil value in particle params, maybe reference to some object?. Paste aborted.</Original>
+				<English>Emitter 3Ditor: Nil value in particle params, maybe reference to some object?. Paste aborted.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_nilInRandom_note">
+				<Original>Emitter 3Ditor: Nil value in particle random, maybe reference to some object?. Paste aborted.</Original>
+				<English>Emitter 3Ditor: Nil value in particle random, maybe reference to some object?. Paste aborted.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_nilInCircle_note">
+				<Original>Emitter 3Ditor: Nil value in particle circle, maybe reference to some object?. Paste aborted.</Original>
+				<English>Emitter 3Ditor: Nil value in particle circle, maybe reference to some object?. Paste aborted.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_nilInFire_note">
+				<Original>Emitter 3Ditor: Nil value in particle fire, maybe reference to some object?. Paste aborted.</Original>
+				<English>Emitter 3Ditor: Nil value in particle fire, maybe reference to some object?. Paste aborted.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_intNotNr_note">
+				<Original>Emitter 3Ditor: Drop interval is not a number. Paste aborted.</Original>
+				<English>Emitter 3Ditor: Drop interval is not a number. Paste aborted.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_genericErrPar_note">
+				<Original>Emitter 3Ditor: Something is wrong with the pasted params, pasting aborted.</Original>
+				<English>Emitter 3Ditor: Something is wrong with the pasted params, pasting aborted.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_parsPasteOK_note">
+				<Original>Emitter 3Ditor: Params pasted succesfully.</Original>
+				<English>Emitter 3Ditor: Params pasted succesfully.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_eeToolReady_note">
+				<Original>Emitter 3Ditor: ready</Original>
+				<English>Emitter 3Ditor: ready</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_emitterNoName_note">
+				<Original>Emitter 3Ditor: No name given for emitter</Original>
+				<English>Emitter 3Ditor: No name given for emitter</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_defSetOK_note">
+				<Original>Emitter 3Ditor: Default emitter set ready</Original>
+				<English>Emitter 3Ditor: Default emitter set ready</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_presNoEtr_note">
+				<Original>Emitter 3Ditor: No emitters present.</Original>
+				<English>Emitter 3Ditor: No emitters present.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_presSaveOK_note">
+				<Original>Emitter 3Ditor: Preset saved</Original>
+				<English>Emitter 3Ditor: Preset saved</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_notALight_note">
+				<Original>Emitter 3Ditor: The current emitter is not a light emitter, or is a part of emitter set including particle emitters. Saving preset failed.</Original>
+				<English>Emitter 3Ditor: The current emitter is not a light emitter, or is a part of emitter set including particle emitters. Saving preset failed.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_noModSel_note">
+				<Original>Emitter 3Ditor: Selected object has no model selections.</Original>
+				<English>Emitter 3Ditor: Selected object has no model selections.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_attNoUngrp_note">
+				<Original>Emitter 3Ditor: You can not 'ungroup' emitters from object attribute emitters.</Original>
+				<English>Emitter 3Ditor: You can not 'ungroup' emitters from object attribute emitters.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_noSetUngrp_note">
+				<Original>Emitter 3Ditor: There's no emitter set to 'ungroup' from.</Original>
+				<English>Emitter 3Ditor: There's no emitter set to 'ungroup' from.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_runHide_note">
+				<Original>Emitter 3Ditor: running hidden (press CTRL + BACKSPACE to unhide)</Original>
+				<English>Emitter 3Ditor: running hidden (press CTRL + BACKSPACE to unhide)</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_pastePogress_note">
+				<Original>Emitter 3Ditor: Paste in progress...</Original>
+				<English>Emitter 3Ditor: Paste in progress...</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_pasteDone_note">
+				<Original>Emitter 3Ditor: Paste done</Original>
+				<English>Emitter 3Ditor: Paste done</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_nameChaNo_note">
+				<Original>Emitter 3Ditor: Changing emitter attribute 'Name' is not allowed!</Original>
+				<English>Emitter 3Ditor: Changing emitter attribute 'Name' is not allowed!</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_initChaNo_note">
+				<Original>Emitter 3Ditor: Changing emitter attribute 'Init' is not allowed!</Original>
+				<English>Emitter 3Ditor: Changing emitter attribute 'Init' is not allowed!</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_onlyOneTrig_note">
+				<Original>Emitter 3Ditor: Only one trigger per emitter/emitter set is allowed.</Original>
+				<English>Emitter 3Ditor: Only one trigger per emitter/emitter set is allowed.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_onlyOneObj_note">
+				<Original>Emitter 3Ditor: Emitter can be attached to only one object at a time.</Original>
+				<English>Emitter 3Ditor: Emitter can be attached to only one object at a time.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_connNoParams_note">
+				<Original>Emitter 3Ditor: Emitter has no parameters set. Connection not allowed.</Original>
+				<English>Emitter 3Ditor: Emitter has no parameters set. Connection not allowed.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_emtrDisabled_note">
+				<Original>Emitter 3Ditor: Emitting disabled</Original>
+				<English>Emitter 3Ditor: Emitting disabled</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_trigNameNo_note">
+				<Original>Emitter 3Ditor: You can not change the text attribute of the emitter activating trigger.</Original>
+				<English>Emitter 3Ditor: You can not change the text attribute of the emitter activating trigger.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_dataIllegalChar_note">
+				<Original>Emitter 3Ditor: Illegal character in data.</Original>
+				<English>Emitter 3Ditor: Illegal character in data.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_dataArrNumOnly_note">
+				<Original>Emitter 3Ditor: Only numeric data allowed in arrays!</Original>
+				<English>Emitter 3Ditor: Only numeric data allowed in arrays!</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_dataStrOnly_note">
+				<Original>Emitter 3Ditor: Only string data allowed in this field!</Original>
+				<English>Emitter 3Ditor: Only string data allowed in this field!</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_dataErrType_note">
+				<Original>Emitter 3Ditor: Wrong datatype, should be %1, was %2</Original>
+				<English>Emitter 3Ditor: Wrong datatype, should be %1, was %2</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_presNoLight_note">
+				<Original>Emitter 3Ditor: No light emitter selected, can not load preset.</Original>
+				<English>Emitter 3Ditor: No light emitter selected, can not load preset.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_presNoSel_note">
+				<Original>Emitter 3Ditor: No preset selected.</Original>
+				<English>Emitter 3Ditor: No preset selected.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_presDel_note">
+				<Original>Emitter 3Ditor: Preset removed</Original>
+				<English>Emitter 3Ditor: Preset removed</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_presDelErr_note">
+				<Original>Emitter 3Ditor: Preset could not be removed. No longer exists?</Original>
+				<English>Emitter 3Ditor: Preset could not be removed. No longer exists?</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_charErr_note">
+				<Original>Emitter 3Ditor: Invalid character</Original>
+				<English>Emitter 3Ditor: Invalid character</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_colPresRem_note">
+				<Original>Emitter 3Ditor: Color preset removed</Original>
+				<English>Emitter 3Ditor: Color preset removed</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_defColorDelNo_note">
+				<Original>Emitter 3Ditor: Deleting default color presets is not possible.</Original>
+				<English>Emitter 3Ditor: Deleting default color presets is not possible.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_noColorExist_note">
+				<Original>Emitter 3Ditor: Color preset could not be removed. No longer exists?</Original>
+				<English>Emitter 3Ditor: Color preset could not be removed. No longer exists?</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_noPosObj_note">
+				<Original>Emitter 3Ditor: Position not on object area</Original>
+				<English>Emitter 3Ditor: Position not on object area</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_noPresets_note">
+				<Original>Emitter 3Ditor: No presets available.</Original>
+				<English>Emitter 3Ditor: No presets available.</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_wasHide_note">
+				<Original>Emitter 3Ditor was hidden via the 'minimize' button/CTRL+BACKSPACE</Original>
+				<English>Emitter 3Ditor was hidden via the 'minimize' button/CTRL+BACKSPACE</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_clrPasErrNoArr_note">
+				<Original>Emitter 3Ditor: Color must be an array!</Original>
+				<English>Emitter 3Ditor: Color must be an array!</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_aclrPasErrNoArr_note">
+				<Original>Emitter 3Ditor: Ambient color must be an array!</Original>
+				<English>Emitter 3Ditor: Ambient color must be an array!</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_intPasErrNoNum_note">
+				<Original>Emitter 3Ditor: Intensity must be a number!</Original>
+				<English>Emitter 3Ditor: Intensity must be a number!</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_flrPasErrNoBool_note">
+				<Original>Emitter 3Ditor: Flare must be boolean!</Original>
+				<English>Emitter 3Ditor: Flare must be boolean!</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_flrszPasErrNoNum_note">
+				<Original>Emitter 3Ditor: FlareSize must be a number!</Original>
+				<English>Emitter 3Ditor: FlareSize must be a number!</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_flrMDPasErrNoNum_note">
+				<Original>Emitter 3Ditor: FlareMaxDistance muct be a number!</Original>
+				<English>Emitter 3Ditor: FlareMaxDistance muct be a number!</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_dltPasErrNoBool_note">
+				<Original>Emitter 3Ditor: Daylight must be boolean!</Original>
+				<English>Emitter 3Ditor: Daylight must be boolean!</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_attPasErrNoArr_note">
+				<Original>Emitter 3Ditor: Attenuation must be an array!</Original>
+				<English>Emitter 3Ditor: Attenuation must be an array!</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_ledZeroInt_note">
+				<Original>Emitter 3Ditor: Intensity is 0. Emitter will not emit any light...</Original>
+				<English>Emitter 3Ditor: Intensity is 0. Emitter will not emit any light...</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_clonerErr_note">
+				<Original>Emitter 3Ditor: Select only one emitter if you wish to clone (even if cloning a set)</Original>
+				<English>Emitter 3Ditor: Select only one emitter if you wish to clone (even if cloning a set)</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_frameIllegalChar_note">
+				<Original>Emitter 3Ditor: Frame number can only be a &lt;t underline='true'&gt;NUMBER&lt;/7&gt;.........</Original>
+				<English>Emitter 3Ditor: Frame number can only be a &lt;t underline='true'&gt;NUMBER&lt;/7&gt;.........</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_frameTooHigh_note">
+				<Original>Emitter 3Ditor: Given frame number can not be larger than the frame count</Original>
+				<English>Emitter 3Ditor: Given frame number can not be larger than the frame count</English>
+			</Key>
+			<Key ID="STR_HNEG_emed_frameTooLow_note">
+				<Original>Emitter 3Ditor: Given frame number can not be less than 0</Original>
+				<English>Emitter 3Ditor: Given frame number can not be less than 0</English>
+			</Key>
+			<!--<Key ID="STR_HNEG_emed__note">
+				<Original>Emitter 3Ditor: </Original>
+				<English>Emitter 3Ditor: </English>
+			</Key>-->
+		</Container>
+	</Package>
+</Project>

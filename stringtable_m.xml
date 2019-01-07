@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Emitter Editor">
+  <Package name="displaynames">
+    <Container name="names">
+      <Key ID="STR_HNEG_emedName">
+        <Original>Emitter 3Ditor</Original>
+        <English>Emitter 3Ditor</English>
+      </Key>
+      <Key ID="STR_HNEG_intfuncsName">
+        <Original>Emitter 3Ditor Internal funcs</Original>
+        <English>Emitter 3Ditor Internal funcs</English>
+      </Key>
+      <Key ID="STR_HNEG_miscfuncsName">
+        <Original>Emitter 3Ditor Misc</Original>
+        <English>Emitter 3Ditor Misc</English>
+      </Key>
+      <Key ID="STR_HNEG_igfuncsName">
+        <Original>Emitter 3Ditor 'In-Game' functions</Original>
+        <English>Emitter 3Ditor 'In-Game' functions</English>
+      </Key>
+      <Key ID="STR_HNEG_emedVnr">
+        <Original>1.024</Original>
+        <English>1.024</English>
+      </Key>
+    </Container>
+  </Package>
+  <Package name="Tutorial">
+    <Container name="Tool GUI">
+      <Key ID="STR_HNEG_TGStep_000">
+        <Original>Welcome to using &lt;%2&gt;Emitter 3Ditor&lt;%3&gt;. This a tour of the tool GUI, it's a bit long one so you should probably bring some Trail Mix..</Original>
+        <English>Welcome to using &lt;%2&gt;Emitter 3Ditor&lt;%3&gt;. This a tour of the tool GUI, it's a bit long one so you should probably bring some Trail Mix..</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_001">
+        <Original>The &lt;%2&gt;Emitter Editor&lt;%3&gt; is comprised of two sections, &lt;%2&gt;Particle Editor&lt;%3&gt; and &lt;%2&gt;Light Editor&lt;%3&gt;.&lt;br /&gt;Particle Editor is indicated by the button with the flame icon. Whenever a section is selected it's button is glowing green.&lt;br /&gt;Keyboard shortcut: &lt;%2&gt;&lt;%10&gt;ALT + F1&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>The &lt;%2&gt;Emitter Editor&lt;%3&gt; is comprised of two sections, &lt;%2&gt;Particle Editor&lt;%3&gt; and &lt;%2&gt;Light Editor&lt;%3&gt;.&lt;br /&gt;Particle Editor is indicated by the button with the flame icon. Whenever a section is selected it's button is glowing green.&lt;br /&gt;Keyboard shortcut: &lt;%2&gt;&lt;%10&gt;ALT + F1&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_002">
+        <Original>&lt;%2&gt;Light Editor&lt;%3&gt; is indicated by the button with the lightbulp icon.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ALT + F2&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>&lt;%2&gt;Light Editor&lt;%3&gt; is indicated by the button with the lightbulp icon.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ALT + F2&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_003">
+        <Original>We'll look at Particle Editor first.&lt;br /&gt;Press &lt;%10&gt;&lt;%2&gt;INSERT&lt;%3&gt;&lt;%3&gt; on your keyboard to place a particle emitter in the Eden edit area on the mouse cursor position.</Original>
+        <English>We'll look at Particle Editor first.&lt;br /&gt;Press &lt;%10&gt;&lt;%2&gt;INSERT&lt;%3&gt;&lt;%3&gt; on your keyboard to place a particle emitter in the Eden edit area on the mouse cursor position.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_004">
+        <Original>The emitter will appear in the tool's &lt;%2&gt;Emitter list&lt;%3&gt;, as well as in the Eden entity list as all regular Eden entities do.&lt;br /&gt;When the first emitter is added the rest of the tool UI becomes active.</Original>
+        <English>The emitter will appear in the tool's &lt;%2&gt;Emitter list&lt;%3&gt;, as well as in the Eden entity list as all regular Eden entities do.&lt;br /&gt;When the first emitter is added the rest of the tool UI becomes active.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_005">
+        <Original>The placed emitter will get a 'default' particle class applied to it which in case of vanilla particles is the first class in the &lt;%2&gt;Emitter Class List&lt;%3&gt;; 'AirFireSparks'.&lt;br /&gt;NOTE that if mods are used this list may contain more than the vanilla classes, and the first class may be something else that 'AirFireSparks'.</Original>
+        <English>The placed emitter will get a 'default' particle class applied to it which in case of vanilla particles is the first class in the &lt;%2&gt;Emitter Class List&lt;%3&gt;; 'AirFireSparks'.&lt;br /&gt;NOTE that if mods are used this list may contain more than the vanilla classes, and the first class may be something else that 'AirFireSparks'.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_006">
+        <Original>From the class list you can select a class to apply to your emitter if you wish to do so.</Original>
+        <English>From the class list you can select a class to apply to your emitter if you wish to do so.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_007">
+        <Original>With the &lt;%2&gt;delete button&lt;%3&gt; you can delete the currently selected emitter. NOTE that this requires a double-click to avoid accidental deletion.&lt;br /&gt;You can of course delete the emitter just by hovering over it and pressing &lt;%2&gt;DELETE&lt;%3&gt; on your keyboard just like any Eden entity.</Original>
+        <English>With the &lt;%2&gt;delete button&lt;%3&gt; you can delete the currently selected emitter. NOTE that this requires a double-click to avoid accidental deletion.&lt;br /&gt;You can of course delete the emitter just by hovering over it and pressing &lt;%2&gt;DELETE&lt;%3&gt; on your keyboard just like any Eden entity.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_008">
+        <Original>With the &lt;%2&gt;Cam On&lt;%3&gt; button you can move the camera closer to the currently selected emitter (like pressing &lt;%2&gt;HOME&lt;%3&gt; to move the camera to the player entity).&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;CTRL + HOME&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>With the &lt;%2&gt;Cam On&lt;%3&gt; button you can move the camera closer to the currently selected emitter (like pressing &lt;%2&gt;HOME&lt;%3&gt; to move the camera to the player entity).&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;CTRL + HOME&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_009">
+        <Original>With the &lt;%2&gt;R&lt;%3&gt; button you can rename the currently selected emitter. &lt;%2&gt;&lt;%10&gt;The emitter attributes CAN NOT be opened at all, so the only way to rename them is via the tool.&lt;%3&gt;&lt;%3&gt;&lt;br /&gt;Keyboard shortcut: &lt;%11&gt;&lt;%2&gt;ALT + R&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>With the &lt;%2&gt;R&lt;%3&gt; button you can rename the currently selected emitter. &lt;%2&gt;&lt;%10&gt;The emitter attributes CAN NOT be opened at all, so the only way to rename them is via the tool.&lt;%3&gt;&lt;%3&gt;&lt;br /&gt;Keyboard shortcut: &lt;%11&gt;&lt;%2&gt;ALT + R&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_010">
+        <Original>This button is called &lt;%2&gt;Attachmode Selector&lt;%3&gt;. This will be detailed in the tutorial &lt;%10&gt;&lt;%2&gt;'Attaching Emitters'&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>This button is called &lt;%2&gt;Attachmode Selector&lt;%3&gt;. This will be detailed in the tutorial &lt;%10&gt;&lt;%2&gt;'Attaching Emitters'&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_010b">
+        <Original>With the &lt;%2&gt;Clone&lt;%3&gt; button you can clone an emitter or an entity with attribute emitters.&lt;br /&gt;&lt;%2&gt;NOTE that normal Eden copy/paste does not work with the emiters&lt;%3&gt;.&lt;br /&gt;&lt;br /&gt;This will be detailed in the tutorial &lt;%10&gt;&lt;%2&gt;'Cloning Emitters'&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>With the &lt;%2&gt;Clone&lt;%3&gt; button you can clone an emitter or an entity with attribute emitters.&lt;br /&gt;&lt;%2&gt;NOTE that normal Eden copy/paste does not work with the emiters&lt;%3&gt;.&lt;br /&gt;&lt;br /&gt;This will be detailed in the tutorial &lt;%10&gt;&lt;%2&gt;'Cloning Emitters'&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_011">
+        <Original>This button is called &lt;%2&gt;Clear class&lt;%3&gt;. It will revert the selected emitter to it's default particle class (with vanilla classes to 'AirFireSparks')</Original>
+        <English>This button is called &lt;%2&gt;Clear class&lt;%3&gt;. It will revert the selected emitter to it's default particle class (with vanilla classes to 'AirFireSparks')</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_012">
+        <Original>With this button you can disable/enable the emitter(s) emitting in the editor (they will still emit in preview). When enabled the button reads &lt;%2&gt;DISABLE&lt;%3&gt;, when disabled it reads &lt;%2&gt;ENABLE&lt;%3&gt;.&lt;br /&gt;It disables/enables all emitters in the scenario, or if you hold down &lt;%10&gt;&lt;%2&gt;ALT&lt;%3&gt;&lt;%3&gt; while pressing this button it will only disable/enable the selected emitter(s). If no emitters are selected will disable all.&lt;br /&gt;Disabled emitter names turn red.&lt;br /&gt;Keyboard shortcuts:&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;ALT + D&lt;%3&gt;&lt;%3&gt; - disable selected&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;CTRL + D&lt;%3&gt;&lt;%3&gt; - disable all</Original>
+        <English>With this button you can disable/enable the emitter(s) emitting in the editor (they will still emit in preview). When enabled the button reads &lt;%2&gt;DISABLE&lt;%3&gt;, when disabled it reads &lt;%2&gt;ENABLE&lt;%3&gt;.&lt;br /&gt;It disables/enables all emitters in the scenario, or if you hold down &lt;%10&gt;&lt;%2&gt;ALT&lt;%3&gt;&lt;%3&gt; while pressing this button it will only disable/enable the selected emitter(s). If no emitters are selected will disable all.&lt;br /&gt;Disabled emitter names turn red.&lt;br /&gt;Keyboard shortcuts:&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;ALT + D&lt;%3&gt;&lt;%3&gt; - disable selected&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;CTRL + D&lt;%3&gt;&lt;%3&gt; - disable all</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_013">
+        <Original>This button hides the tool from view. To get it back press &lt;%2&gt;CTRL + BACKSPACE&lt;%3&gt; on you keyboard.&lt;br /&gt;&lt;%2&gt;CTRL + BACKSPACE&lt;%3&gt; is also the keyboard shortcut for this hide/unhide tool.</Original>
+        <English>This button hides the tool from view. To get it back press &lt;%2&gt;CTRL + BACKSPACE&lt;%3&gt; on you keyboard.&lt;br /&gt;&lt;%2&gt;CTRL + BACKSPACE&lt;%3&gt; is also the keyboard shortcut for this hide/unhide tool.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_013b">
+        <Original>When you hide the tool with the hide button or &lt;%2&gt;CTRL + BACKSPACE&lt;%3&gt; a 'reveal' button is shown on the status bar. If you press it (or &lt;%2&gt;CTRL + BACKSPACE&lt;%3&gt;) the tool UI will re-appear.</Original>
+        <English>When you hide the tool with the hide button or &lt;%2&gt;CTRL + BACKSPACE&lt;%3&gt; a 'reveal' button is shown on the status bar. If you press it (or &lt;%2&gt;CTRL + BACKSPACE&lt;%3&gt;) the tool UI will re-appear.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_014">
+        <Original>This is the tool &lt;%2&gt;main menu&lt;%3&gt;. For the Particle Editor section it includes 8 'leafs'.&lt;br /&gt;The leafs will be covered in more detail in their individual tutorial sections.</Original>
+        <English>This is the tool &lt;%2&gt;main menu&lt;%3&gt;. For the Particle Editor section it includes 8 'leafs'.&lt;br /&gt;The leafs will be covered in more detail in their individual tutorial sections.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_014b">
+        <Original>&lt;%2&gt;!!VERY IMPORTANT NOTE!!&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Each edit field on this tool's UI is 'armed' with data verification so that the data you input in it is proper for the emitter to consume.&lt;br /&gt;Data types are:&lt;br /&gt;%1Number&lt;br /&gt;%1String&lt;br /&gt;%1Array.</Original>
+        <English>&lt;%2&gt;!!VERY IMPORTANT NOTE!!&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Each edit field on this tool's UI is 'armed' with data verification so that the data you input in it is proper for the emitter to consume.&lt;br /&gt;Data types are:&lt;br /&gt;%1Number&lt;br /&gt;%1String&lt;br /&gt;%1Array.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_014c">
+        <Original>&lt;%2&gt;!!VERY IMPORTANT NOTE!!&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;When you input something into the field the field input and edges will turn yellow which indicates the data is being validated. During this you shouldn't try to continue typing into the field.</Original>
+        <English>&lt;%2&gt;!!VERY IMPORTANT NOTE!!&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;When you input something into the field the field input and edges will turn yellow which indicates the data is being validated. During this you shouldn't try to continue typing into the field.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_014d">
+        <Original>&lt;%2&gt;!!VERY IMPORTANT NOTE!!&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;If the data validates succesfully the edit field turns back to normal.&lt;br /&gt;If the data is faulty the edit field turns red and you will get a error notification as well.&lt;br /&gt;After a couple of seconds the edit field is filled with either it's default data or the last valid input.</Original>
+        <English>&lt;%2&gt;!!VERY IMPORTANT NOTE!!&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;If the data validates succesfully the edit field turns back to normal.&lt;br /&gt;If the data is faulty the edit field turns red and you will get a error notification as well.&lt;br /&gt;After a couple of seconds the edit field is filled with either it's default data or the last valid input.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_015">
+        <Original>The first leaf is &lt;%2&gt;Basic Params&lt;%3&gt;. This includes most of the parameters you would set with the scripting command setParticleParams (apart from the 'Attached to' and 'selection' which are tool specific).&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 1&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>The first leaf is &lt;%2&gt;Basic Params&lt;%3&gt;. This includes most of the parameters you would set with the scripting command setParticleParams (apart from the 'Attached to' and 'selection' which are tool specific).&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 1&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_016">
+        <Original>The second leaf is &lt;%2&gt;Render Params&lt;%3&gt;. This includes rest of the parameters you would set with the scripting command setParticleParams.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 2&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>The second leaf is &lt;%2&gt;Render Params&lt;%3&gt;. This includes rest of the parameters you would set with the scripting command setParticleParams.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 2&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_017">
+        <Original>The third leaf is &lt;%2&gt;Random&lt;%3&gt;. This includes the parameters you would set with setParticleRandom.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 3&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>The third leaf is &lt;%2&gt;Random&lt;%3&gt;. This includes the parameters you would set with setParticleRandom.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 3&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_018">
+        <Original>The fourth leaf is &lt;%2&gt;Circle&lt;%3&gt;. This includes the parameters you would set with setParticleCircle.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 4&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>The fourth leaf is &lt;%2&gt;Circle&lt;%3&gt;. This includes the parameters you would set with setParticleCircle.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 4&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_019">
+        <Original>The fifth leaf is &lt;%2&gt;Damage&lt;%3&gt;. This includes the parameters you would set with setParticleFire.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 5&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>The fifth leaf is &lt;%2&gt;Damage&lt;%3&gt;. This includes the parameters you would set with setParticleFire.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 5&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_020">
+        <Original>The sixth leaf is &lt;%2&gt;Special&lt;%3&gt;. This includes some tool specific params that have nothing to do with the particle related scripting commands.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 6&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>The sixth leaf is &lt;%2&gt;Special&lt;%3&gt;. This includes some tool specific params that have nothing to do with the particle related scripting commands.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 6&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_021">
+        <Original>The seventh leaf is &lt;%2&gt;Export/import&lt;%3&gt;. This is for exporting and importing particle params, saving and loading particle presets.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 7&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>The seventh leaf is &lt;%2&gt;Export/import&lt;%3&gt;. This is for exporting and importing particle params, saving and loading particle presets.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 7&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_021b">
+        <Original>&lt;%2&gt;Save Preset&lt;%3&gt; is for saving your fave particle effects as presets.</Original>
+        <English>&lt;%2&gt;Save Preset&lt;%3&gt; is for saving your fave particle effects as presets.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_021c">
+        <Original>&lt;%2&gt;Load Preset&lt;%3&gt; is for loading the saved particle presets.</Original>
+        <English>&lt;%2&gt;Load Preset&lt;%3&gt; is for loading the saved particle presets.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_021d">
+        <Original>&lt;%2&gt;Paste Params&lt;%3&gt; is for 'injecting' particle params into the emitters pasted from some script for example.</Original>
+        <English>&lt;%2&gt;Paste Params&lt;%3&gt; is for 'injecting' particle params into the emitters pasted from some script for example.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_021e">
+        <Original>&lt;%2&gt;Export&lt;%3&gt; is for exporting particle parameters into the clipboard and .rpt file. You don't really need to do that but it's there for convinience.</Original>
+        <English>&lt;%2&gt;Export&lt;%3&gt; is for exporting particle parameters into the clipboard and .rpt file. You don't really need to do that but it's there for convinience.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_022">
+        <Original>The eight leaf is &lt;%2&gt;Prefs&lt;%3&gt;. In here you can find some preferences you can set for the tool.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 8&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>The eight leaf is &lt;%2&gt;Prefs&lt;%3&gt;. In here you can find some preferences you can set for the tool.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 8&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_023">
+        <Original>That's it for the Particle Editor UI.&lt;br /&gt;On to the Light Editor UI...&lt;br /&gt;&lt;br /&gt;NOTE that for the purposes of the tutorial the time is adjusted so that it becomes dark.</Original>
+        <English>That's it for the Particle Editor UI.&lt;br /&gt;On to the Light Editor UI...&lt;br /&gt;&lt;br /&gt;NOTE that for the purposes of the tutorial the time is adjusted so that it becomes dark.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_024">
+        <Original>&lt;%2&gt;Light Editor&lt;%3&gt; is indicated by the button with the lightbulp icon.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ALT + F2&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>&lt;%2&gt;Light Editor&lt;%3&gt; is indicated by the button with the lightbulp icon.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ALT + F2&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_025">
+        <Original>Same as with particles, press &lt;%10&gt;&lt;%2&gt;INSERT&lt;%3&gt;&lt;%3&gt; on your keyboard to insert a light emitter in the Eden edit area on the mouse cursor position.</Original>
+        <English>Same as with particles, press &lt;%10&gt;&lt;%2&gt;INSERT&lt;%3&gt;&lt;%3&gt; on your keyboard to insert a light emitter in the Eden edit area on the mouse cursor position.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_026">
+        <Original>The emitter will appear in the tool's &lt;%2&gt;Emitter list&lt;%3&gt;, as well as in the Eden entity list as all regular Eden entities do.&lt;br /&gt;When the first emitter is added the rest of the tool UI becomes active.</Original>
+        <English>The emitter will appear in the tool's &lt;%2&gt;Emitter list&lt;%3&gt;, as well as in the Eden entity list as all regular Eden entities do.&lt;br /&gt;When the first emitter is added the rest of the tool UI becomes active.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_027">
+        <Original>The placed emitter will get a 'empty' light class applied to it, meaning it will not emit any light.</Original>
+        <English>The placed emitter will get a 'empty' light class applied to it, meaning it will not emit any light.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_028">
+        <Original>From the class list you can select a class to apply to your emitter if you wish to do so.&lt;br /&gt; NOTE that light emitters don't like VR in Eden so they tend to keel over so the light 'points' to the side. Will not appear like that when previewing.</Original>
+        <English>From the class list you can select a class to apply to your emitter if you wish to do so.&lt;br /&gt; NOTE that light emitters don't like VR in Eden so they tend to keel over so the light 'points' to the side. Will not appear like that when previewing.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_029">
+        <Original>The top menu of the tool: emitter list, delete and other buttons and so on stay the same, what changes is from the main menu onwards.</Original>
+        <English>The top menu of the tool: emitter list, delete and other buttons and so on stay the same, what changes is from the main menu onwards.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_030">
+        <Original>This is the &lt;%2&gt;Light Editor main menu&lt;%3&gt;. It includes 5 'leafs'.&lt;br /&gt;The leafs will be covered in more detail in their individual tutorial sections.</Original>
+        <English>This is the &lt;%2&gt;Light Editor main menu&lt;%3&gt;. It includes 5 'leafs'.&lt;br /&gt;The leafs will be covered in more detail in their individual tutorial sections.</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_031">
+        <Original>The first leaf is &lt;%2&gt;Light Params&lt;%3&gt;. This includes all the parameters that you would set with all the setLightBlahblah commands, plus some of the tool specific things that were in their separate leaf in the Particle Editor.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 1&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>The first leaf is &lt;%2&gt;Light Params&lt;%3&gt;. This includes all the parameters that you would set with all the setLightBlahblah commands, plus some of the tool specific things that were in their separate leaf in the Particle Editor.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 1&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_032">
+        <Original>The second leaf is &lt;%2&gt;Save Preset&lt;%3&gt;. This is for saving your fave lights as presets. In Particle Editor this is hidden deeper under Export/Import.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 2&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>The second leaf is &lt;%2&gt;Save Preset&lt;%3&gt;. This is for saving your fave lights as presets. In Particle Editor this is hidden deeper under Export/Import.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 2&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_033">
+        <Original>The third leaf is &lt;%2&gt;Load Preset&lt;%3&gt;. For loading the light presets saved in the previous leaf. In the Particle editor this is hidden deeper under Export/Import.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 3&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>The third leaf is &lt;%2&gt;Load Preset&lt;%3&gt;. For loading the light presets saved in the previous leaf. In the Particle editor this is hidden deeper under Export/Import.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 3&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_034">
+        <Original>The fourth leaf is &lt;%2&gt;Export/Import&lt;%3&gt;. This is for exporting and importing light parameters.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 4&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>The fourth leaf is &lt;%2&gt;Export/Import&lt;%3&gt;. This is for exporting and importing light parameters.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 4&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_035">
+        <Original>The fifth leaf is &lt;%2&gt;Prefs&lt;%3&gt;. This is exactly the same as the Prefs in the Particle Editor, currently there is no section specific preferences.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 5&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>The fifth leaf is &lt;%2&gt;Prefs&lt;%3&gt;. This is exactly the same as the Prefs in the Particle Editor, currently there is no section specific preferences.&lt;br /&gt;Keyboard shortcut : &lt;%10&gt;&lt;%2&gt;CTRL + 5&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_TGStep_036">
+        <Original>Done.&lt;br /&gt;&lt;br /&gt;Read the full manual that came with the download for further and more detailed information.</Original>
+        <English>Done.&lt;br /&gt;&lt;br /&gt;Read the full manual that came with the download for further and more detailed information.</English>
+      </Key>
+      <Key ID="STR_HNEG_TG_name">
+        <Original>Tool UI</Original>
+        <English>Tool UI</English>
+      </Key>
+    </Container>
+    <Container name="Preferences">
+      <Key ID="STR_HNEG_Pref_name">
+        <Original>Preferences Leaf</Original>
+        <English>Preferences Leaf</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_000">
+        <Original>&lt;%2&gt;Preferences&lt;%3&gt;&lt;br /&gt;The tool specific preferences and 'default emitter set' setup.</Original>
+        <English>&lt;%2&gt;Preferences&lt;%3&gt;&lt;br /&gt;The tool specific preferences and 'default emitter set' setup.</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_001">
+        <Original>&lt;%2&gt;Always start with Eden&lt;%3&gt;&lt;br /&gt;Does exactly that, when this is checked the tool will always start up with Eden when you open it.</Original>
+        <English>&lt;%2&gt;Always start with Eden&lt;%3&gt;&lt;br /&gt;Does exactly that, when this is checked the tool will always start up with Eden when you open it.</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_002">
+        <Original>&lt;%2&gt;Select tool to start up with Eden.&lt;%3&gt;&lt;br /&gt;When Tool is set to start up with Eden with this you can select which editor section the tool starts with.</Original>
+        <English>&lt;%2&gt;Select tool to start up with Eden.&lt;%3&gt;&lt;br /&gt;When Tool is set to start up with Eden with this you can select which editor section the tool starts with.</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_003">
+        <Original>&lt;%2&gt;Always start hidden&lt;%3&gt;&lt;br /&gt;When Tool is set to start up with Eden with this you can select whether the tool starts up hidden (same as hiding it with the hide button or CTRL + BACKSPACE).</Original>
+        <English>&lt;%2&gt;Always start hidden&lt;%3&gt;&lt;br /&gt;When Tool is set to start up with Eden with this you can select whether the tool starts up hidden (same as hiding it with the hide button or CTRL + BACKSPACE).</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_004">
+        <Original>&lt;%2&gt;Show emitter names in 3D/map&lt;%3&gt;&lt;br /&gt;Toggle showing the emitter names in the 3D edit area and on the map.</Original>
+        <English>&lt;%2&gt;Show emitter names in 3D/map&lt;%3&gt;&lt;br /&gt;Toggle showing the emitter names in the 3D edit area and on the map.</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_005">
+        <Original>&lt;%2&gt;Auto-change tool section&lt;%3&gt;&lt;br /&gt;When this is toggled the tool section is automatically switched according to the emitter type when you select an emitter. Selecting particle emitter switches to particle editor, selecting light emitter switches to light editor..</Original>
+        <English>&lt;%2&gt;Auto-change tool section&lt;%3&gt;&lt;br /&gt;When this is toggled the tool section is automatically switched according to the emitter type when you select an emitter. Selecting particle emitter switches to particle editor, selecting light emitter switches to light editor..</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_006">
+        <Original>&lt;%2&gt;Version&lt;%3&gt;&lt;br /&gt;Shows the current installed version of the tool. If reporting bugs it's useful to include this to the report.</Original>
+        <English>&lt;%2&gt;Version&lt;%3&gt;&lt;br /&gt;Shows the current installed version of the tool. If reporting bugs it's useful to include this to the report.</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_007">
+        <Original>&lt;%2&gt;Toggle default emitter set&lt;%3&gt;&lt;br /&gt;Toggle placing a &lt;%2&gt;default emitter set&lt;%3&gt; with &lt;%10&gt;&lt;%2&gt;SHIFT + INSERT&lt;%3&gt;&lt;%3&gt;.&lt;br /&gt;Default emitter set is a set of up to 4 emitters you can define and place when this is toggled on.</Original>
+        <English>&lt;%2&gt;Toggle default emitter set&lt;%3&gt;&lt;br /&gt;Toggle placing a &lt;%2&gt;default emitter set&lt;%3&gt; with &lt;%10&gt;&lt;%2&gt;SHIFT + INSERT&lt;%3&gt;&lt;%3&gt;.&lt;br /&gt;Default emitter set is a set of up to 4 emitters you can define and place when this is toggled on.</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_008">
+        <Original>&lt;%2&gt;Always insert defaults&lt;%3&gt;&lt;br /&gt;When this is toggled you can not place single emitters, the default emitter set will always be inserted whether you press &lt;%10&gt;&lt;%2&gt;INSERT&lt;%3&gt;&lt;%3&gt; or &lt;%10&gt;&lt;%2&gt;SHIFT + INSERT&lt;%3&gt;&lt;%3&gt;.</Original>
+        <English>&lt;%2&gt;Always insert defaults&lt;%3&gt;&lt;br /&gt;When this is toggled you can not place single emitters, the default emitter set will always be inserted whether you press &lt;%10&gt;&lt;%2&gt;INSERT&lt;%3&gt;&lt;%3&gt; or &lt;%10&gt;&lt;%2&gt;SHIFT + INSERT&lt;%3&gt;&lt;%3&gt;.</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_009">
+        <Original>&lt;%2&gt;Build default set&lt;%3&gt;&lt;br /&gt;Pressing this button opens a new 'sub leaf' in which you can define the default emitter set.</Original>
+        <English>&lt;%2&gt;Build default set&lt;%3&gt;&lt;br /&gt;Pressing this button opens a new 'sub leaf' in which you can define the default emitter set.</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_010">
+        <Original>&lt;%2&gt;Default emitter set&lt;%3&gt;&lt;br /&gt;Defining the default emitter set is quite simple, you can define:&lt;br /&gt;%1Active emitters (amount)&lt;br /&gt;%1Emitter type&lt;br /&gt;%1Effect type&lt;br /&gt;%1Effect</Original>
+        <English>&lt;%2&gt;Default emitter set&lt;%3&gt;&lt;br /&gt;Defining the default emitter set is quite simple, you can define:&lt;br /&gt;%1Active emitters (amount)&lt;br /&gt;%1Emitter type&lt;br /&gt;%1Effect type&lt;br /&gt;%1Effect</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_011">
+        <Original>This toggles whether the emitter is to be used in the set or not.&lt;br /&gt;Obviously:&lt;br /&gt;%1Checked = used&lt;br /&gt;%1Not checked = not used</Original>
+        <English>This toggles whether the emitter is to be used in the set or not.&lt;br /&gt;Obviously:&lt;br /&gt;%1Checked = used&lt;br /&gt;%1Not checked = not used</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_012">
+        <Original>From this you select the type of emitter to use for this emitter.&lt;br/ &gt;Choices are of course:&lt;br /&gt;%1Particle&lt;br /&gt;%1Light</Original>
+        <English>From this you select the type of emitter to use for this emitter.&lt;br/ &gt;Choices are of course:&lt;br /&gt;%1Particle&lt;br /&gt;%1Light</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_013">
+        <Original>From this you select the type of the effect for this emitter.&lt;br/ &gt;Choices are:&lt;br /&gt;%1Class&lt;br /&gt;A CfgCloudlets/CfgLights class from the config&lt;br /&gt;&lt;br /&gt;%1Preset&lt;br /&gt;A particle/light preset saved with the tool&lt;br /&gt;&lt;br /&gt;%1Emitter&lt;br /&gt;Any emitter you have placed.&lt;br /&gt;When this is selected the parameters of that emitter will be used for this default set emitter.&lt;br /&gt;This overrides the emitter type selection if they mismatch, you obviously can not use light params for particle emitter and vice versa..</Original>
+        <English>From this you select the type of the effect for this emitter.&lt;br/ &gt;Choices are:&lt;br /&gt;%1Class&lt;br /&gt;A CfgCloudlets/CfgLights class from the config&lt;br /&gt;&lt;br /&gt;%1Preset&lt;br /&gt;A particle/light preset saved with the tool&lt;br /&gt;&lt;br /&gt;%1Emitter&lt;br /&gt;Any emitter you have placed.&lt;br /&gt;When this is selected the parameters of that emitter will be used for this default set emitter.&lt;br /&gt;This overrides the emitter type selection if they mismatch, you obviously can not use light params for particle emitter and vice versa..</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_014">
+        <Original>From this you select either class or preset to use, depending on your previous choices.&lt;br /&gt;&lt;br /&gt;You can save whole sets as presets so any preset that has more than one emitter in it will be colored red in this list.&lt;br /&gt;&lt;br /&gt;Selecting a red colored preset will 'insert' the whole preset into the default set.&lt;br /&gt;If the preset is larger than 4 emitters the first 4 of that preset will be applied into the default set.</Original>
+        <English>From this you select either class or preset to use, depending on your previous choices.&lt;br /&gt;&lt;br /&gt;You can save whole sets as presets so any preset that has more than one emitter in it will be colored red in this list.&lt;br /&gt;&lt;br /&gt;Selecting a red colored preset will 'insert' the whole preset into the default set.&lt;br /&gt;If the preset is larger than 4 emitters the first 4 of that preset will be applied into the default set.</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_015">
+        <Original>Pressing &lt;%2&gt;OK&lt;%3&gt; will confirm the selections you made as default set and return to the &lt;%2&gt;Prefs&lt;%3&gt; leaf.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ENTER&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>Pressing &lt;%2&gt;OK&lt;%3&gt; will confirm the selections you made as default set and return to the &lt;%2&gt;Prefs&lt;%3&gt; leaf.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ENTER&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_016">
+        <Original>Pressing &lt;%2&gt;CANCEL&lt;%3&gt; will discard the selections you made and return to the &lt;%2&gt;Prefs&lt;%3&gt; leaf. &lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ESC&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>Pressing &lt;%2&gt;CANCEL&lt;%3&gt; will discard the selections you made and return to the &lt;%2&gt;Prefs&lt;%3&gt; leaf. &lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ESC&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_017">
+        <Original>Back to &lt;%2&gt;Prefs&lt;%3&gt; leaf.&lt;br /&gt;Checking this disables the data validation on the UI parameter fields. You will get a prompt asking you to make sure you want to do this.</Original>
+        <English>Back to &lt;%2&gt;Prefs&lt;%3&gt; leaf.&lt;br /&gt;Checking this disables the data validation on the UI parameter fields. You will get a prompt asking you to make sure you want to do this.</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_018">
+        <Original>Checking this disables the Surface snapping 'slavery'.&lt;br /&gt;Meaning a feature of the tool: when dragging emitters with Eden Surface Snapping on the emitters will follow object surfaces they are dragged over.&lt;br /&gt;Checking this box will disable that feature.</Original>
+        <English>Checking this disables the Surface snapping 'slavery'.&lt;br /&gt;Meaning a feature of the tool: when dragging emitters with Eden Surface Snapping on the emitters will follow object surfaces they are dragged over.&lt;br /&gt;Checking this box will disable that feature.</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_018b">
+        <Original>Disables hiding the tool UI with Eden UI when hiding it by pressing &lt;%10&gt;&lt;%2&gt;BACKSPACE&lt;%3&gt;&lt;%3&gt;.&lt;br /&gt;When this box NOT ticked the tool UI will hide with the Eden UI, and vice versa.</Original>
+        <English>Disables hiding the tool UI with Eden UI when hiding it by pressing &lt;%10&gt;&lt;%2&gt;BACKSPACE&lt;%3&gt;&lt;%3&gt;.&lt;br /&gt;When this box NOT ticked the tool UI will hide with the Eden UI, and vice versa.</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_018c">
+        <Original>Enables 'Eden auto-dodging' feature.&lt;br /&gt;Means that when this is enabled the tool UI will automatically fade out/in depending on if the mouse cursor is over either of the Eden side panels. This feature can be temporarily disabled by pressing and holding down &lt;%10&gt;&lt;%2&gt;CTRL&lt;%3&gt;&lt;%3&gt; when entering the side panel areas.&lt;br /&gt;This exists because on some resolutions or UI scales the tool will obstruct the Eden side panels and this enabled you don't need to manually hide or reveal the tool.</Original>
+        <English>Enables 'Eden auto-dodging' feature.&lt;br /&gt;Means that when this is enabled the tool UI will automatically fade out/in depending on if the mouse cursor is over either of the Eden side panels. This feature can be temporarily disabled by pressing and holding down &lt;%10&gt;&lt;%2&gt;CTRL&lt;%3&gt;&lt;%3&gt; when entering the side panel areas.&lt;br /&gt;This exists because on some resolutions or UI scales the tool will obstruct the Eden side panels and this enabled you don't need to manually hide or reveal the tool.</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_019">
+        <Original>&lt;%2&gt;Defaults button&lt;%3&gt; will reset the preferences to 'factory defaults'.</Original>
+        <English>&lt;%2&gt;Defaults button&lt;%3&gt; will reset the preferences to 'factory defaults'.</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_020">
+        <Original>&lt;%2&gt;OK Pop-ups button&lt;%3&gt; will re-enable all pop-up messages disabled with 'Don't show this message again'.</Original>
+        <English>&lt;%2&gt;OK Pop-ups button&lt;%3&gt; will re-enable all pop-up messages disabled with 'Don't show this message again'.</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_021">
+        <Original>&lt;%2&gt;Revert button&lt;%3&gt; is a sort of a Hail Mary pass if something goes awry with the tool. Something going awry means a visible scripting error popping up which in very high likelihood means that things are FUBAR.&lt;br /&gt;Pressing this button erases everything done with this tool from the current scenario saving it from doom..</Original>
+        <English>&lt;%2&gt;Revert button&lt;%3&gt; is a sort of a Hail Mary pass if something goes awry with the tool. Something going awry means a visible scripting error popping up which in very high likelihood means that things are FUBAR.&lt;br /&gt;Pressing this button erases everything done with this tool from the current scenario saving it from doom..</English>
+      </Key>
+      <Key ID="STR_HNEG_PrefStep_022">
+        <Original>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</Original>
+        <English>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</English>
+      </Key>
+    </Container>
+    <Container name="BasicParams">
+      <Key ID="STR_HNEG_PEBP_name">
+        <Original>Particle Editor: Basic Params Leaf</Original>
+        <English>Particle Editor: Basic Params Leaf</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_000">
+        <Original>&lt;%2&gt;Basic Params&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is where you can edit most of the parameters you would normally set for your emitter with &lt;%10&gt;setParticleParams&lt;%3&gt;&lt;br /&gt;This is just a shortish overview of the different parameters, for more in-depth information and examples refer to the emitter editor manual.&lt;br /&gt;For basic understanding of the particle parameters refer to BIS Wiki.</Original>
+        <English>&lt;%2&gt;Basic Params&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is where you can edit most of the parameters you would normally set for your emitter with &lt;%10&gt;setParticleParams&lt;%3&gt;&lt;br /&gt;This is just a shortish overview of the different parameters, for more in-depth information and examples refer to the emitter editor manual.&lt;br /&gt;For basic understanding of the particle parameters refer to BIS Wiki.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_001">
+        <Original>&lt;%2&gt;Sprite&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Sprite is particle model that is used for the given particle class/effect.&lt;br /&gt;This also determines the texture used for the particle. Particles are basically a step-animation using a texture which has 'still images' (frames) of the effect, so for example for fire there's different phases of a flame.&lt;br /&gt;Funnily enough there isn't really any too user-friednly way to actually know what texture the sprite uses nor previewing that texture....</Original>
+        <English>&lt;%2&gt;Sprite&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Sprite is particle model that is used for the given particle class/effect.&lt;br /&gt;This also determines the texture used for the particle. Particles are basically a step-animation using a texture which has 'still images' (frames) of the effect, so for example for fire there's different phases of a flame.&lt;br /&gt;Funnily enough there isn't really any too user-friednly way to actually know what texture the sprite uses nor previewing that texture....</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_002">
+        <Original>&lt;%2&gt;Type&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Type kind of particle to use, either&lt;br /&gt;%1'Billboard' (2D sprite) which is used for most particle effects&lt;br /&gt;%1'Space Object' which is a 3D particle, used to create things like flies and such.</Original>
+        <English>&lt;%2&gt;Type&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Type kind of particle to use, either&lt;br /&gt;%1'Billboard' (2D sprite) which is used for most particle effects&lt;br /&gt;%1'Space Object' which is a 3D particle, used to create things like flies and such.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_003">
+        <Original>&lt;%2&gt;nTieth&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;A coefficient of the texture size (used by the sprite), in pixels: 2048/coef</Original>
+        <English>&lt;%2&gt;nTieth&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;A coefficient of the texture size (used by the sprite), in pixels: 2048/coef</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_004">
+        <Original>&lt;%2&gt;FSIndex&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The index (number) of the horizontal row of frames in the texture used by the sprite.&lt;br /&gt;The index number starts from 0 (zero) like with arrays, so 0 is the topmost row, 1 is the next down..</Original>
+        <English>&lt;%2&gt;FSIndex&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The index (number) of the horizontal row of frames in the texture used by the sprite.&lt;br /&gt;The index number starts from 0 (zero) like with arrays, so 0 is the topmost row, 1 is the next down..</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_005">
+        <Original>&lt;%2&gt;Count&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The amount of frames to play starting from the given row of frames (defined in &lt;%10&gt;FSIndex&lt;%3&gt;).&lt;br /&gt;The amount of frames that are feasible to play depend on the texture the sprite uses.</Original>
+        <English>&lt;%2&gt;Count&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The amount of frames to play starting from the given row of frames (defined in &lt;%10&gt;FSIndex&lt;%3&gt;).&lt;br /&gt;The amount of frames that are feasible to play depend on the texture the sprite uses.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_006">
+        <Original>&lt;%2&gt;Loop&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Loop toggle for the particle animation, as in if the particle is still alive and the count of frames is reached (defined in &lt;%10&gt;Count&lt;%3&gt;) it will start over and will keep playing though the count of frames until the particle dies.</Original>
+        <English>&lt;%2&gt;Loop&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Loop toggle for the particle animation, as in if the particle is still alive and the count of frames is reached (defined in &lt;%10&gt;Count&lt;%3&gt;) it will start over and will keep playing though the count of frames until the particle dies.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_007">
+        <Original>&lt;%2&gt;Timer Period&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Interval in which a &lt;%10&gt;onTimer&lt;%3&gt; event (explained later) is called. Time in seconds.</Original>
+        <English>&lt;%2&gt;Timer Period&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Interval in which a &lt;%10&gt;onTimer&lt;%3&gt; event (explained later) is called. Time in seconds.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_008">
+        <Original>&lt;%2&gt;Lifetime&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Time in seconds after which the particle is deleted.</Original>
+        <English>&lt;%2&gt;Lifetime&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Time in seconds after which the particle is deleted.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_009">
+        <Original>&lt;%2&gt;Position&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Position3D. Position relative to the emitter itself, or if the emitter is attached to something position relative to the object it is attached to.</Original>
+        <English>&lt;%2&gt;Position&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Position3D. Position relative to the emitter itself, or if the emitter is attached to something position relative to the object it is attached to.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_010">
+        <Original>&lt;%2&gt;Move velocity&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Velocity vector for the particle, [x, y, z]. As in direction and speed of movement in 3D space.</Original>
+        <English>&lt;%2&gt;Move velocity&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Velocity vector for the particle, [x, y, z]. As in direction and speed of movement in 3D space.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_011">
+        <Original>&lt;%2&gt;Rotation velocity&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;A float number, how many rotations particle spins per second.</Original>
+        <English>&lt;%2&gt;Rotation velocity&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;A float number, how many rotations particle spins per second.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_012">
+        <Original>&lt;%2&gt;Random direction intensity&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;A value which is added to each move velocity vector element. It's a value randomly picked between 0 and the value entered here.</Original>
+        <English>&lt;%2&gt;Random direction intensity&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;A value which is added to each move velocity vector element. It's a value randomly picked between 0 and the value entered here.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_013">
+        <Original>&lt;%2&gt;Random direction period&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Interval, in seconds, in which the &lt;%10&gt;Random direction intensity&lt;%3&gt; change of the move velocity vector happens.</Original>
+        <English>&lt;%2&gt;Random direction period&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Interval, in seconds, in which the &lt;%10&gt;Random direction intensity&lt;%3&gt; change of the move velocity vector happens.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_014">
+        <Original>&lt;%2&gt;Weight&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Mass of the particle, in kilograms. This value is a part of the physics equations to determine whether the particle is denser than the surrounding air.&lt;br /&gt;Works with &lt;%10&gt;Volume&lt;%3&gt;, so &lt;%10&gt;particle density = weight/volume&lt;%3&gt;.</Original>
+        <English>&lt;%2&gt;Weight&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Mass of the particle, in kilograms. This value is a part of the physics equations to determine whether the particle is denser than the surrounding air.&lt;br /&gt;Works with &lt;%10&gt;Volume&lt;%3&gt;, so &lt;%10&gt;particle density = weight/volume&lt;%3&gt;.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_015">
+        <Original>&lt;%2&gt;Volume&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Volume of the particle, in cubic meters. Works with &lt;%10&gt;Weight&lt;%3&gt;, so &lt;%10&gt;particle density = weight/volume&lt;%3&gt;.</Original>
+        <English>&lt;%2&gt;Volume&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Volume of the particle, in cubic meters. Works with &lt;%10&gt;Weight&lt;%3&gt;, so &lt;%10&gt;particle density = weight/volume&lt;%3&gt;.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_016">
+        <Original>&lt;%2&gt;Friction&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Determines how much air friction the particle has, the higher the value the more friction and thus the harder for the particle to travel through the air. Affects the speed travelling of the particle.</Original>
+        <English>&lt;%2&gt;Friction&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Determines how much air friction the particle has, the higher the value the more friction and thus the harder for the particle to travel through the air. Affects the speed travelling of the particle.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_017">
+        <Original>&lt;%2&gt;onTimer script&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Path to a script file to run on &lt;%2&gt;onTimer&lt;%3&gt; event, interval determined by &lt;%10&gt;TimerPeriod&lt;%3&gt;. The particle's position is passed into the executed script, can be obtained with &lt;%10&gt;_this&lt;%3&gt;.</Original>
+        <English>&lt;%2&gt;onTimer script&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Path to a script file to run on &lt;%2&gt;onTimer&lt;%3&gt; event, interval determined by &lt;%10&gt;TimerPeriod&lt;%3&gt;. The particle's position is passed into the executed script, can be obtained with &lt;%10&gt;_this&lt;%3&gt;.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_018">
+        <Original>&lt;%2&gt;beforeDestroy script&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Path to a script file that is run just before the particle dies. The particle's position is passed into the executed script, can be obtained with &lt;%10&gt;_this&lt;%3&gt;.</Original>
+        <English>&lt;%2&gt;beforeDestroy script&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Path to a script file that is run just before the particle dies. The particle's position is passed into the executed script, can be obtained with &lt;%10&gt;_this&lt;%3&gt;.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_019">
+        <Original>&lt;%2&gt;Attached to&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Tool specific parameter, when the emitter is attached to some entity shows the entity (object referer).</Original>
+        <English>&lt;%2&gt;Attached to&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Tool specific parameter, when the emitter is attached to some entity shows the entity (object referer).</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_020">
+        <Original>&lt;%2&gt;Selection&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Tool specific parameter, if the emitter is attached to some model selection on the entity model it is attached to, shows the selection name.</Original>
+        <English>&lt;%2&gt;Selection&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Tool specific parameter, if the emitter is attached to some model selection on the entity model it is attached to, shows the selection name.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_021">
+        <Original>&lt;%2&gt;Angle&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Determines the starting angle of the particle (presumably this is related to the &lt;%10&gt;Space Object&lt;%2&gt; type particle)</Original>
+        <English>&lt;%2&gt;Angle&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Determines the starting angle of the particle (presumably this is related to the &lt;%10&gt;Space Object&lt;%2&gt; type particle)</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_022">
+        <Original>&lt;%2&gt;onSurface&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Determines whether the particle is placed on (water) surface on start of it's existence, default value is true, works only if &lt;%10&gt;circleRadius&lt;%2&gt; &gt; 0 (&lt;%10&gt;circleRadius&lt;%20&gt; is define in the &lt;%10&gt;Circle&lt;%30&gt; leaf)</Original>
+        <English>&lt;%2&gt;onSurface&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Determines whether the particle is placed on (water) surface on start of it's existence, default value is true, works only if &lt;%10&gt;circleRadius&lt;%2&gt; &gt; 0 (&lt;%10&gt;circleRadius&lt;%20&gt; is define in the &lt;%10&gt;Circle&lt;%30&gt; leaf)</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_023">
+        <Original>&lt;%2&gt;bounceOnSurface&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Speed loss coefficient when particle collides with the ground. Collision value can be between 0 and 1, -1 to disable collision. Collision disabled by default. Very performance hungry so should be used with care.</Original>
+        <English>&lt;%2&gt;bounceOnSurface&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Speed loss coefficient when particle collides with the ground. Collision value can be between 0 and 1, -1 to disable collision. Collision disabled by default. Very performance hungry so should be used with care.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_024">
+        <Original>&lt;%2&gt;drop interval&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The interval in which a new particle is emitted from the emitter. Time in seconds.</Original>
+        <English>&lt;%2&gt;drop interval&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The interval in which a new particle is emitted from the emitter. Time in seconds.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEBPStep_025">
+        <Original>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</Original>
+        <English>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</English>
+      </Key>
+    </Container>
+    <Container name="RenderParams">
+      <Key ID="STR_HNEG_PERP_name">
+        <Original>Particle Editor: Render Params Leaf</Original>
+        <English>Particle Editor: Render Params Leaf</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_000">
+        <Original>&lt;%2&gt;Render Params&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is where you can edit the rest of the parameters you would normally set for your emitter with &lt;%10&gt;setParticleParams&lt;%3&gt; that were not covered in &lt;%10&gt;Basic Params.&lt;%3&gt;&lt;br /&gt;Here you can finalize the animation of the particle.</Original>
+        <English>&lt;%2&gt;Render Params&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is where you can edit the rest of the parameters you would normally set for your emitter with &lt;%10&gt;setParticleParams&lt;%3&gt; that were not covered in &lt;%10&gt;Basic Params.&lt;%3&gt;&lt;br /&gt;Here you can finalize the animation of the particle.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_001">
+        <Original>&lt;%2&gt;Frame nr.&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;'Handles' the frames of the animation.&lt;br /&gt;This shows the current selected frame number.</Original>
+        <English>&lt;%2&gt;Frame nr.&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;'Handles' the frames of the animation.&lt;br /&gt;This shows the current selected frame number.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_002">
+        <Original>&lt;%2&gt;Frame nr.&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This shows the total amount of frames in the animation.</Original>
+        <English>&lt;%2&gt;Frame nr.&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This shows the total amount of frames in the animation.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_003">
+        <Original>&lt;%2&gt;Frame nr.&lt;%3&gt;&lt;br /&gt;&lt;br /&gt; With the %11 and %12 buttons you can scroll through the frames:&lt;br /&gt;%1%10 = Previous frame&lt;br /&gt;%1%11 = Next frame</Original>
+        <English>&lt;%2&gt;Frame nr.&lt;%3&gt;&lt;br /&gt;&lt;br /&gt; With the %11 and %12 buttons you can scroll through the frames:&lt;br /&gt;%1%10 = Previous frame&lt;br /&gt;%1%11 = Next frame</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_004">
+        <Original>&lt;%2&gt;Frame nr.&lt;%3&gt;&lt;br /&gt;&lt;br /&gt; With the - and + buttons you can add and remove frames, self explanatory:&lt;br /&gt;%1+ adds frame&lt;br /&gt;%1- removes frame&lt;br /&gt;NOTE that frames are always added to and removed from the end of the frame list.</Original>
+        <English>&lt;%2&gt;Frame nr.&lt;%3&gt;&lt;br /&gt;&lt;br /&gt; With the - and + buttons you can add and remove frames, self explanatory:&lt;br /&gt;%1+ adds frame&lt;br /&gt;%1- removes frame&lt;br /&gt;NOTE that frames are always added to and removed from the end of the frame list.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_005">
+        <Original>&lt;%2&gt;Scale&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Size of the particle in the given animation frame. In meters.</Original>
+        <English>&lt;%2&gt;Scale&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Size of the particle in the given animation frame. In meters.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_006">
+        <Original>&lt;%2&gt;Anim speed&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;How fast the frame is 'passed through'; according to the BIKI 'number of animation cycles in 1s'.&lt;br /&gt;So speed is kinda the FPS for the animation. The higher the value the faster the speed of course.</Original>
+        <English>&lt;%2&gt;Anim speed&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;How fast the frame is 'passed through'; according to the BIKI 'number of animation cycles in 1s'.&lt;br /&gt;So speed is kinda the FPS for the animation. The higher the value the faster the speed of course.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_007">
+        <Original>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This checkbox toggles the &lt;%2&gt;particle main color&lt;%3&gt; as the color to edit with the sliders.</Original>
+        <English>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This checkbox toggles the &lt;%2&gt;particle main color&lt;%3&gt; as the color to edit with the sliders.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_008">
+        <Original>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This shows the color array produced by the sliders.</Original>
+        <English>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This shows the color array produced by the sliders.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_009">
+        <Original>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This checkbox toggles the &lt;%2&gt;emissive color&lt;%3&gt; as the color to edit with the sliders.</Original>
+        <English>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This checkbox toggles the &lt;%2&gt;emissive color&lt;%3&gt; as the color to edit with the sliders.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_010">
+        <Original>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This shows the emissive color array produced by the sliders.</Original>
+        <English>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This shows the emissive color array produced by the sliders.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_011">
+        <Original>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This shows which of the colors is being edited by the sliders, &lt;%10&gt;Color&lt;%3&gt; or &lt;%10&gt;Emissive&lt;%3&gt; color</Original>
+        <English>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This shows which of the colors is being edited by the sliders, &lt;%10&gt;Color&lt;%3&gt; or &lt;%10&gt;Emissive&lt;%3&gt; color</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_012">
+        <Original>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This shows a preview of the edited color.&lt;br /&gt;not necessarily 100% 1:1 with actual color of the particle. Alpha has no effect to this preview.</Original>
+        <English>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This shows a preview of the edited color.&lt;br /&gt;not necessarily 100% 1:1 with actual color of the particle. Alpha has no effect to this preview.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_013">
+        <Original>&lt;%2&gt;Color sliders&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Color is 'format' RGBA:&lt;br /&gt;%1R = Red&lt;br /&gt;%1G = Green&lt;br /&gt;%1B = Blue&lt;br /&gt;%1A = Alpha (transparency)/Luminance</Original>
+        <English>&lt;%2&gt;Color sliders&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Color is 'format' RGBA:&lt;br /&gt;%1R = Red&lt;br /&gt;%1G = Green&lt;br /&gt;%1B = Blue&lt;br /&gt;%1A = Alpha (transparency)/Luminance</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_014">
+        <Original>&lt;%2&gt;Luminance&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Luminance toggle, luminance determines how visible the particle is in Night Vision and Thermal Imaging.&lt;br /&gt;Switches the alpha channel slider between alpha and luminance. On particles a negative value as alpha translates to particle luminance value, the lower the number the higher the luminance.&lt;br /&gt;In NV the effect is really subtle though, depending on the color of the particle (lighter particle shows this effect a little better). The range of the slider is from -0.1 to -10, beyond that there seems to be no visual difference.</Original>
+        <English>&lt;%2&gt;Luminance&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Luminance toggle, luminance determines how visible the particle is in Night Vision and Thermal Imaging.&lt;br /&gt;Switches the alpha channel slider between alpha and luminance. On particles a negative value as alpha translates to particle luminance value, the lower the number the higher the luminance.&lt;br /&gt;In NV the effect is really subtle though, depending on the color of the particle (lighter particle shows this effect a little better). The range of the slider is from -0.1 to -10, beyond that there seems to be no visual difference.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_015">
+        <Original>&lt;%2&gt;Presets&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is the list of color presets, in addition to a few 'factory presets' it will list any preset you might save.</Original>
+        <English>&lt;%2&gt;Presets&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is the list of color presets, in addition to a few 'factory presets' it will list any preset you might save.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_016">
+        <Original>&lt;%2&gt;Presets&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;&lt;%2&gt;Save Preset button&lt;%3&gt; opens a 'sub-leaf' in which you can save a color as a preset.</Original>
+        <English>&lt;%2&gt;Presets&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;&lt;%2&gt;Save Preset button&lt;%3&gt; opens a 'sub-leaf' in which you can save a color as a preset.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_017">
+        <Original>&lt;%2&gt;Saving Color Preset&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Name field for the preset. Do not use any other special characters than underscore, or any non-english alphabet letters.</Original>
+        <English>&lt;%2&gt;Saving Color Preset&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Name field for the preset. Do not use any other special characters than underscore, or any non-english alphabet letters.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_018">
+        <Original>&lt;%2&gt;Saving Color Preset&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;&lt;%2&gt;Save preset button&lt;%3&gt; saves the preset.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ENTER&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>&lt;%2&gt;Saving Color Preset&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;&lt;%2&gt;Save preset button&lt;%3&gt; saves the preset.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ENTER&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_019">
+        <Original>&lt;%2&gt;Saving Color Preset&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;&lt;%2&gt;Back button&lt;%3&gt; returns to the &lt;%10&gt;Render Params&lt;%3&gt; leaf.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ESC&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>&lt;%2&gt;Saving Color Preset&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;&lt;%2&gt;Back button&lt;%3&gt; returns to the &lt;%10&gt;Render Params&lt;%3&gt; leaf.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ESC&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_020">
+        <Original>&lt;%2&gt;Presets&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;&lt;%2&gt;Del Preset button&lt;%3&gt; deletes the currently selected preset in the list.&lt;br /&gt;Note that 'factory presets' can not be deleted.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;DELETE&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>&lt;%2&gt;Presets&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;&lt;%2&gt;Del Preset button&lt;%3&gt; deletes the currently selected preset in the list.&lt;br /&gt;Note that 'factory presets' can not be deleted.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;DELETE&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_PERPStep_021">
+        <Original>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</Original>
+        <English>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</English>
+      </Key>
+    </Container>
+    <Container name="Random">
+      <Key ID="STR_HNEG_PERND_name">
+        <Original>Particle Editor: Random Leaf</Original>
+        <English>Particle Editor: Random Leaf</English>
+      </Key>
+      <Key ID="STR_HNEG_PERNDStep_000">
+        <Original>&lt;%2&gt;Random&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is where you can edit the parameters you would normally set with setParticleRandom.</Original>
+        <English>&lt;%2&gt;Random&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is where you can edit the parameters you would normally set with setParticleRandom.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERNDStep_001">
+        <Original>&lt;%2&gt;Lifetime&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;An interpolation between the lifetime value in &lt;%10&gt;Basic Params&lt;%3&gt; and this. In other words the lifetime of the emitted single particle is randomized between basic lifetime and this random lifetime.</Original>
+        <English>&lt;%2&gt;Lifetime&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;An interpolation between the lifetime value in &lt;%10&gt;Basic Params&lt;%3&gt; and this. In other words the lifetime of the emitted single particle is randomized between basic lifetime and this random lifetime.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERNDStep_002">
+        <Original>&lt;%2&gt;Position&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;A randomized position between the &lt;%10&gt;Basic Params&lt;%3&gt; position and this. Each vector element is randomized individually.</Original>
+        <English>&lt;%2&gt;Position&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;A randomized position between the &lt;%10&gt;Basic Params&lt;%3&gt; position and this. Each vector element is randomized individually.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERNDStep_003">
+        <Original>&lt;%2&gt;Move velocity&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Randomized move velocity vector between &lt;%10&gt;Basic Params&lt;%3&gt; move velocity and this. Each vector element is randomized individually.</Original>
+        <English>&lt;%2&gt;Move velocity&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Randomized move velocity vector between &lt;%10&gt;Basic Params&lt;%3&gt; move velocity and this. Each vector element is randomized individually.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERNDStep_004">
+        <Original>&lt;%2&gt;Rotation velocity&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Rotation speed randomizer value, randomized between the &lt;%10&gt;Basic Params&lt;%3&gt; rotation velocity and this. Each vector element is randomized individually.</Original>
+        <English>&lt;%2&gt;Rotation velocity&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Rotation speed randomizer value, randomized between the &lt;%10&gt;Basic Params&lt;%3&gt; rotation velocity and this. Each vector element is randomized individually.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERNDStep_005">
+        <Original>&lt;%2&gt;Scale&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Randomizer for the particle size, interpolates a value between this and the one in &lt;%10&gt;Render Params&lt;%3&gt; leaf.</Original>
+        <English>&lt;%2&gt;Scale&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Randomizer for the particle size, interpolates a value between this and the one in &lt;%10&gt;Render Params&lt;%3&gt; leaf.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERNDStep_006">
+        <Original>&lt;%2&gt;Random direction intensity&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Randomizer value for &lt;&amp;10&gt;Rand. Direction Intensity&lt;%3&gt;, interpolates a random value between this and the one in &lt;%10&gt;Basic Params&lt;%3&gt;.</Original>
+        <English>&lt;%2&gt;Random direction intensity&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Randomizer value for &lt;&amp;10&gt;Rand. Direction Intensity&lt;%3&gt;, interpolates a random value between this and the one in &lt;%10&gt;Basic Params&lt;%3&gt;.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERNDStep_007">
+        <Original>&lt;%2&gt;Random direction period&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Randomizer value for &lt;&amp;10&gt;Rand. Direction Period&lt;%3&gt;, interpolates a random value between this and the one in &lt;%10&gt;Basic Params&lt;%3&gt;.</Original>
+        <English>&lt;%2&gt;Random direction period&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Randomizer value for &lt;&amp;10&gt;Rand. Direction Period&lt;%3&gt;, interpolates a random value between this and the one in &lt;%10&gt;Basic Params&lt;%3&gt;.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERNDStep_008">
+        <Original>&lt;%2&gt;Angle&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Randomizer value for &lt;&amp;10&gt;Angle&lt;%3&gt;, interpolates a random value between this and the one in &lt;%10&gt;Basic Params&lt;%3&gt;.</Original>
+        <English>&lt;%2&gt;Angle&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Randomizer value for &lt;&amp;10&gt;Angle&lt;%3&gt;, interpolates a random value between this and the one in &lt;%10&gt;Basic Params&lt;%3&gt;.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERNDStep_009">
+        <Original>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This randomizes the color between this and the color defined in &lt;%10&gt;Render Params&lt;%3&gt;&lt;br /&gt;Color is of course of the same type RGBA. In &lt;%10&gt;Render Params&lt;%3&gt; you can set the color for each animation frame separately so this randomization will apply to all frames.</Original>
+        <English>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This randomizes the color between this and the color defined in &lt;%10&gt;Render Params&lt;%3&gt;&lt;br /&gt;Color is of course of the same type RGBA. In &lt;%10&gt;Render Params&lt;%3&gt; you can set the color for each animation frame separately so this randomization will apply to all frames.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERNDStep_010">
+        <Original>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is the color preview for the sliders. Alpha has no effect to this preview.</Original>
+        <English>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is the color preview for the sliders. Alpha has no effect to this preview.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERNDStep_011">
+        <Original>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is the color array output for the sliders.</Original>
+        <English>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is the color array output for the sliders.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERNDStep_012">
+        <Original>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Sliders to set the color with.</Original>
+        <English>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Sliders to set the color with.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERNDStep_013">
+        <Original>&lt;%2&gt;bounceOnSurface&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Randomizer value for &lt;%10&gt;bounceOnSurface&lt;%3&gt;, interpolates a random value between this and the one defined in &lt;%10&gt;Basic Params&lt;%3&gt;.</Original>
+        <English>&lt;%2&gt;bounceOnSurface&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Randomizer value for &lt;%10&gt;bounceOnSurface&lt;%3&gt;, interpolates a random value between this and the one defined in &lt;%10&gt;Basic Params&lt;%3&gt;.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERNDStep_014">
+        <Original>&lt;%2&gt;Luminance&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The same as the luminance toggle in &lt;%10&gt;Render Params&lt;%3&gt;, switches the alpha channel between alpha and luminance.</Original>
+        <English>&lt;%2&gt;Luminance&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The same as the luminance toggle in &lt;%10&gt;Render Params&lt;%3&gt;, switches the alpha channel between alpha and luminance.</English>
+      </Key>
+      <Key ID="STR_HNEG_PERNDStep_015">
+        <Original>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</Original>
+        <English>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</English>
+      </Key>
+    </Container>
+    <Container name="Circle">
+      <Key ID="STR_HNEG_PECLE_name">
+        <Original>Particle Editor: Circle Leaf</Original>
+        <English>Particle Editor: Circle Leaf</English>
+      </Key>
+      <Key ID="STR_HNEG_PECLEStep_000">
+        <Original>&lt;%2&gt;Circle&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is where you can edit the parameters you would normally set with &lt;%10&gt;setParticleCircle&lt;%3&gt;.&lt;br /&gt;Only two params so short and sweet.</Original>
+        <English>&lt;%2&gt;Circle&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is where you can edit the parameters you would normally set with &lt;%10&gt;setParticleCircle&lt;%3&gt;.&lt;br /&gt;Only two params so short and sweet.</English>
+      </Key>
+      <Key ID="STR_HNEG_PECLEStep_001">
+        <Original>&lt;%2&gt;Radius&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The radius of the circle created on the emitter position, in meters. The circle center is the emitter position.&lt;br /&gt;NOTE that radius of 5m equals to a diameter of 10m.&lt;br /&gt;The particles will be emitted on the entire circumference of the circle disc, so basically this creates a circular shape emitting particles on it's 'edges'.</Original>
+        <English>&lt;%2&gt;Radius&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The radius of the circle created on the emitter position, in meters. The circle center is the emitter position.&lt;br /&gt;NOTE that radius of 5m equals to a diameter of 10m.&lt;br /&gt;The particles will be emitted on the entire circumference of the circle disc, so basically this creates a circular shape emitting particles on it's 'edges'.</English>
+      </Key>
+      <Key ID="STR_HNEG_PECLEStep_002">
+        <Original>&lt;%2&gt;Velocity&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Velocity vector along the circle disc defined with &lt;%10&gt;Radius&lt;%3&gt;. Velocity is transformed and added to total velocity determined by the move velocity in &lt;%10&gt;Basic Params&lt;%3&gt; and &lt;%10&gt;Random&lt;%3&gt;</Original>
+        <English>&lt;%2&gt;Velocity&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Velocity vector along the circle disc defined with &lt;%10&gt;Radius&lt;%3&gt;. Velocity is transformed and added to total velocity determined by the move velocity in &lt;%10&gt;Basic Params&lt;%3&gt; and &lt;%10&gt;Random&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_PECLEStep_003">
+        <Original>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</Original>
+        <English>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</English>
+      </Key>
+    </Container>
+    <Container name="Damage">
+      <Key ID="STR_HNEG_PEDMG_name">
+        <Original>Particle Editor: Damage Leaf</Original>
+        <English>Particle Editor: Damage Leaf</English>
+      </Key>
+      <Key ID="STR_HNEG_PEDMGStep_000">
+        <Original>&lt;%2&gt;Damage&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is where you can edit the parameters you would normally set with &lt;%10&gt;setParticleFire&lt;%3&gt;.</Original>
+        <English>&lt;%2&gt;Damage&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is where you can edit the parameters you would normally set with &lt;%10&gt;setParticleFire&lt;%3&gt;.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEDMGStep_001">
+        <Original>&lt;%2&gt;Damage type&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Type of the damage inflicted. The game currently only offers &lt;%10&gt;Fire&lt;%3&gt;.</Original>
+        <English>&lt;%2&gt;Damage type&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Type of the damage inflicted. The game currently only offers &lt;%10&gt;Fire&lt;%3&gt;.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEDMGStep_002">
+        <Original>&lt;%2&gt;Core intensity&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Damage intensity in emitter center (position). Seems to be some sort of coefficient of some value determined in the damage type somewhere in the bowels of the game engine.</Original>
+        <English>&lt;%2&gt;Core intensity&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Damage intensity in emitter center (position). Seems to be some sort of coefficient of some value determined in the damage type somewhere in the bowels of the game engine.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEDMGStep_003">
+        <Original>&lt;%2&gt;Core distance&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Distance how far from the emitter center to receive the damage defined by &lt;%10&gt;core intensity&lt;%3&gt;. In meters.</Original>
+        <English>&lt;%2&gt;Core distance&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Distance how far from the emitter center to receive the damage defined by &lt;%10&gt;core intensity&lt;%3&gt;. In meters.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEDMGStep_004">
+        <Original>&lt;%2&gt;damage time&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Damage inflicting interval, within 1 second. 1 means once a second, 0.5 two times a second and so on...</Original>
+        <English>&lt;%2&gt;damage time&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Damage inflicting interval, within 1 second. 1 means once a second, 0.5 two times a second and so on...</English>
+      </Key>
+      <Key ID="STR_HNEG_PEDMGStep_005">
+        <Original>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</Original>
+        <English>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</English>
+      </Key>
+    </Container>
+    <Container name="Special">
+      <Key ID="STR_HNEG_PESP_name">
+        <Original>Particle Editor: Special Leaf</Original>
+        <English>Particle Editor: Special Leaf</English>
+      </Key>
+      <Key ID="STR_HNEG_PESPStep_000">
+        <Original>&lt;%2&gt;Special&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is where you can edit some parameters that have no vanilla behaviour in form of a scripting command.</Original>
+        <English>&lt;%2&gt;Special&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is where you can edit some parameters that have no vanilla behaviour in form of a scripting command.</English>
+      </Key>
+      <Key ID="STR_HNEG_PESPStep_001">
+        <Original>&lt;%2&gt;Die out&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;A timer, in seconds, after which the currently selected emitter or emitter set will be deleted.&lt;br /&gt;Timer starts after the emitters start emitting in scenario runtime.</Original>
+        <English>&lt;%2&gt;Die out&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;A timer, in seconds, after which the currently selected emitter or emitter set will be deleted.&lt;br /&gt;Timer starts after the emitters start emitting in scenario runtime.</English>
+      </Key>
+      <Key ID="STR_HNEG_PESPStep_002">
+        <Original>&lt;%2&gt;Follow objectHide&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Toggles whether the selected emitter or emitter set will follow the objectHide status of the object it's attached to.&lt;br /&gt;Means that if this is NOT toggled emitters attached to an object that is set to &lt;%10&gt;hideObject true&lt;%3&gt; in scenario runtime will not hide with the object.&lt;br /&gt;&lt;br /&gt;Might seem odd to have this optional but this starts a looping script for each object so for performance's sake this is optional, no need to use if you know hideObject will not be used.</Original>
+        <English>&lt;%2&gt;Follow objectHide&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Toggles whether the selected emitter or emitter set will follow the objectHide status of the object it's attached to.&lt;br /&gt;Means that if this is NOT toggled emitters attached to an object that is set to &lt;%10&gt;hideObject true&lt;%3&gt; in scenario runtime will not hide with the object.&lt;br /&gt;&lt;br /&gt;Might seem odd to have this optional but this starts a looping script for each object so for performance's sake this is optional, no need to use if you know hideObject will not be used.</English>
+      </Key>
+      <Key ID="STR_HNEG_PESPStep_003">
+        <Original>&lt;%2&gt;Importt module(s) button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;If the scenario has &lt;%10&gt;BIS effect module(s)&lt;%3&gt; (fire/smoke) inserted this button will become active and you can import the modules into the tool for editing.&lt;br /&gt;NOTE that the module is replaced with an emitter.&lt;br /&gt;Either imports all modules or just selected ones.</Original>
+        <English>&lt;%2&gt;Importt module(s) button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;If the scenario has &lt;%10&gt;BIS effect module(s)&lt;%3&gt; (fire/smoke) inserted this button will become active and you can import the modules into the tool for editing.&lt;br /&gt;NOTE that the module is replaced with an emitter.&lt;br /&gt;Either imports all modules or just selected ones.</English>
+      </Key>
+      <Key ID="STR_HNEG_PESPStep_004">
+        <Original>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</Original>
+        <English>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</English>
+      </Key>
+    </Container>
+    <Container name="PedExport">
+      <Key ID="STR_HNEG_PEXP_name">
+        <Original>Particle Editor: Export/Import Leaf</Original>
+        <English>Particle Editor: Export/Import Leaf</English>
+      </Key>
+      <Key ID="STR_HNEG_PEXPStep_000">
+        <Original>&lt;%2&gt;Export/Import&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is basically what the 2D editor era particle editors did, from here you can export particle parameters for pasting into scripts.&lt;br /&gt;NOTE that you don't have to do this, &lt;%2&gt;the effects will appear in-game exactly as they appear in the editor with no scripting needed&lt;%3&gt;. This is just here for convinience.&lt;br /&gt;&lt;br /&gt;This leaf also offers other stuff:&lt;br /&gt;%1 Import parameters&lt;br /&gt;%1Save presets&lt;br /&gt;%1Load presets</Original>
+        <English>&lt;%2&gt;Export/Import&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is basically what the 2D editor era particle editors did, from here you can export particle parameters for pasting into scripts.&lt;br /&gt;NOTE that you don't have to do this, &lt;%2&gt;the effects will appear in-game exactly as they appear in the editor with no scripting needed&lt;%3&gt;. This is just here for convinience.&lt;br /&gt;&lt;br /&gt;This leaf also offers other stuff:&lt;br /&gt;%1 Import parameters&lt;br /&gt;%1Save presets&lt;br /&gt;%1Load presets</English>
+      </Key>
+      <Key ID="STR_HNEG_PEXPStep_001">
+        <Original>&lt;%2&gt;Export&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Each particle related scripting command has it's own data field, calling them &lt;%10&gt;export fields&lt;%3&gt;.&lt;br /&gt;When a particle emitter is selected it's parameters get 'printed' into their respective fields</Original>
+        <English>&lt;%2&gt;Export&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Each particle related scripting command has it's own data field, calling them &lt;%10&gt;export fields&lt;%3&gt;.&lt;br /&gt;When a particle emitter is selected it's parameters get 'printed' into their respective fields</English>
+      </Key>
+      <Key ID="STR_HNEG_PEXPStep_002">
+        <Original>&lt;%2&gt;Export button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Pressing the &lt;%10&gt;Eport button&lt;%3&gt; will export the parameters into the clipboard and into the .rpt file.&lt;br /&gt;By default exports the parameters of ALL emitters in the scenario.&lt;br /&gt;&lt;br /&gt;To export in config format (config class) hold down &lt;%10&gt;&lt;%2&gt;CTRL&lt;%3&gt;&lt;%3&gt; and press the Export button. The other settings apply with this as well, export is just in config format.</Original>
+        <English>&lt;%2&gt;Export button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Pressing the &lt;%10&gt;Eport button&lt;%3&gt; will export the parameters into the clipboard and into the .rpt file.&lt;br /&gt;By default exports the parameters of ALL emitters in the scenario.&lt;br /&gt;&lt;br /&gt;To export in config format (config class) hold down &lt;%10&gt;&lt;%2&gt;CTRL&lt;%3&gt;&lt;%3&gt; and press the Export button. The other settings apply with this as well, export is just in config format.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEXPStep_003">
+        <Original>&lt;%2&gt;Export current only&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Checking this will limit the exporting to only the currently shown parameters.</Original>
+        <English>&lt;%2&gt;Export current only&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Checking this will limit the exporting to only the currently shown parameters.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEXPStep_004">
+        <Original>&lt;%2&gt;Exclude light emitters&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Checking this will exclude light emitter params from the export if exporting an emitter set that has a light emitter in it.</Original>
+        <English>&lt;%2&gt;Exclude light emitters&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Checking this will exclude light emitter params from the export if exporting an emitter set that has a light emitter in it.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEXPStep_005">
+        <Original>&lt;%2&gt;Param 'pages'&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;When a set of emitters is selected for export this allows you to 'scroll through' the emitters to view the individual params of each of them.&lt;br /&gt;In case you for example want to export the params of only one of the emitters in the set. Or 'paste' params into one..</Original>
+        <English>&lt;%2&gt;Param 'pages'&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;When a set of emitters is selected for export this allows you to 'scroll through' the emitters to view the individual params of each of them.&lt;br /&gt;In case you for example want to export the params of only one of the emitters in the set. Or 'paste' params into one..</English>
+      </Key>
+      <Key ID="STR_HNEG_PEXPStep_005b">
+        <Original>&lt;%2&gt;Lock Export fields&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;'Locks' the 'export fields' so that they won't get auto-filled with the export data when selecting emitters. When uncheckd each time you select an emitter it's params along with the scripting commands get populated into the 'export fields.'</Original>
+        <English>&lt;%2&gt;Lock Export fields&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;'Locks' the 'export fields' so that they won't get auto-filled with the export data when selecting emitters. When uncheckd each time you select an emitter it's params along with the scripting commands get populated into the 'export fields.'</English>
+      </Key>
+      <Key ID="STR_HNEG_PEXPStep_005c">
+        <Original>&lt;%2&gt;Clear button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Clears the 'export fields' of all data.</Original>
+        <English>&lt;%2&gt;Clear button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Clears the 'export fields' of all data.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEXPStep_006">
+        <Original>&lt;%2&gt;Save Preset button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Opens up a 'sub-leaf' in which you can save the particle params as presets.</Original>
+        <English>&lt;%2&gt;Save Preset button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Opens up a 'sub-leaf' in which you can save the particle params as presets.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEXPStep_007">
+        <Original>&lt;%2&gt;Name&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Here you can save the particle params as a preset.&lt;br /&gt;It obviously requires a name.</Original>
+        <English>&lt;%2&gt;Name&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Here you can save the particle params as a preset.&lt;br /&gt;It obviously requires a name.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEXPStep_008">
+        <Original>&lt;%2&gt;Description&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;You can also give it a optional description. If saving a whole emitter set as a preset it is useful to make a note here on how many emitters the set has, or just some reminder to yourself about the preset.&lt;br /&gt;This description appears as tooltip in the &lt;%10&gt;Load Preset&lt;%3&gt; list when you hover over an item in it.</Original>
+        <English>&lt;%2&gt;Description&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;You can also give it a optional description. If saving a whole emitter set as a preset it is useful to make a note here on how many emitters the set has, or just some reminder to yourself about the preset.&lt;br /&gt;This description appears as tooltip in the &lt;%10&gt;Load Preset&lt;%3&gt; list when you hover over an item in it.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEXPStep_009">
+        <Original>&lt;%2&gt;Save set as preset&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;When this is checked and an emitter in a set is selected the whole set is saved as a preset. Otherwise just the emitter that is currently selected is the one getting it's params saved.</Original>
+        <English>&lt;%2&gt;Save set as preset&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;When this is checked and an emitter in a set is selected the whole set is saved as a preset. Otherwise just the emitter that is currently selected is the one getting it's params saved.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEXPStep_010">
+        <Original>&lt;%2&gt;Save Button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Saves the params as a preset with the given name.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ENTER&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>&lt;%2&gt;Save Button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Saves the params as a preset with the given name.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ENTER&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_PEXPStep_011">
+        <Original>&lt;%2&gt;Back Button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Returns to the Export/Import leaf.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ESC&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>&lt;%2&gt;Back Button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Returns to the Export/Import leaf.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ESC&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_PEXPStep_012">
+        <Original>&lt;%2&gt;Load Preset&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Opens up a 'sub-leaf' to load particle presets.</Original>
+        <English>&lt;%2&gt;Load Preset&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Opens up a 'sub-leaf' to load particle presets.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEXPStep_013">
+        <Original>&lt;%2&gt;Load Preset&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Here you can load particle param presets you have saved, listed in this list.&lt;br /&gt;Presets with more than one emitter will appear in &lt;%10&gt;red&lt;%3&gt;.</Original>
+        <English>&lt;%2&gt;Load Preset&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Here you can load particle param presets you have saved, listed in this list.&lt;br /&gt;Presets with more than one emitter will appear in &lt;%10&gt;red&lt;%3&gt;.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEXPStep_014">
+        <Original>&lt;%2&gt;Load button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;'Injects' the selected preset into the currently selected emitter or emitter set (depends on the preset 'size').&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ENTER&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>&lt;%2&gt;Load button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;'Injects' the selected preset into the currently selected emitter or emitter set (depends on the preset 'size').&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ENTER&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_PEXPStep_015">
+        <Original>&lt;%2&gt;Delete button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Deletes the selected preset from the preset list, permanently.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;DELETE&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>&lt;%2&gt;Delete button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Deletes the selected preset from the preset list, permanently.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;DELETE&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_PEXPStep_016">
+        <Original>&lt;%2&gt;Back button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Returns back to &lt;%10&gt;Export/Import&lt;%3&gt; leaf.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ESC&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>&lt;%2&gt;Back button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Returns back to &lt;%10&gt;Export/Import&lt;%3&gt; leaf.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ESC&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_PEXPStep_017">
+        <Original>&lt;%2&gt;Paste Params button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The naming of the buttons is a tad sucky, but this button 'injects' the parameters visible in the &lt;%10&gt;export fields&lt;%3&gt; into the currently selected emitter.&lt;br /&gt;So, with this you can 'import' particle effects you may have previously done in your scripts by copying the parameters into their respective fields, selecting an emitter and pressing this &lt;%10&gt;Paste Params&lt;%3&gt; button.</Original>
+        <English>&lt;%2&gt;Paste Params button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The naming of the buttons is a tad sucky, but this button 'injects' the parameters visible in the &lt;%10&gt;export fields&lt;%3&gt; into the currently selected emitter.&lt;br /&gt;So, with this you can 'import' particle effects you may have previously done in your scripts by copying the parameters into their respective fields, selecting an emitter and pressing this &lt;%10&gt;Paste Params&lt;%3&gt; button.</English>
+      </Key>
+      <Key ID="STR_HNEG_PEXPStep_018">
+        <Original>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</Original>
+        <English>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</English>
+      </Key>
+    </Container>
+    <Container name="LightParams">
+      <Key ID="STR_HNEG_LELP_name">
+        <Original>Light Editor: Light Params Leaf</Original>
+        <English>Light Editor: Light Params Leaf</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_000">
+        <Original>&lt;%2&gt;Light Params&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is where you define all the parameters you would normally apply via the setLightXXXX scripting commands.</Original>
+        <English>&lt;%2&gt;Light Params&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is where you define all the parameters you would normally apply via the setLightXXXX scripting commands.</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_001">
+        <Original>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Main color of the light, color format RGB.</Original>
+        <English>&lt;%2&gt;Color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Main color of the light, color format RGB.</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_002">
+        <Original>&lt;%2&gt;Ambient color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Ambient color of the light, color format RGB.&lt;br /&gt;Ambient color means the color that will light up the surroundings of the light, even surfaces that are not facing the light.</Original>
+        <English>&lt;%2&gt;Ambient color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Ambient color of the light, color format RGB.&lt;br /&gt;Ambient color means the color that will light up the surroundings of the light, even surfaces that are not facing the light.</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_003">
+        <Original>&lt;%2&gt;Link ambient with color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Toggling this makes the ambient color 'follow' the main color sliders.</Original>
+        <English>&lt;%2&gt;Link ambient with color&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Toggling this makes the ambient color 'follow' the main color sliders.</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_004">
+        <Original>&lt;%2&gt;Intensity&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The brightness of the light. The numbers with this are quite big, start with at least 1000</Original>
+        <English>&lt;%2&gt;Intensity&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The brightness of the light. The numbers with this are quite big, start with at least 1000</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_005">
+        <Original>&lt;%2&gt;Attenuation&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Light attenuation, if the term is a bit vague it means light intensity drop-off over distance.&lt;br /&gt;Standard method of attenuation (1 / (constant + linear*dist + quadratic*dist*dist)). Start param represents distance, where the attenuation starts to take effects (dist = distance - start)</Original>
+        <English>&lt;%2&gt;Attenuation&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Light attenuation, if the term is a bit vague it means light intensity drop-off over distance.&lt;br /&gt;Standard method of attenuation (1 / (constant + linear*dist + quadratic*dist*dist)). Start param represents distance, where the attenuation starts to take effects (dist = distance - start)</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_006">
+        <Original>&lt;%2&gt;Attenuation - Start&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Distance from the light after which the light attenuation starts. In meters.</Original>
+        <English>&lt;%2&gt;Attenuation - Start&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Distance from the light after which the light attenuation starts. In meters.</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_007">
+        <Original>&lt;%2&gt;Attenuation - Constant&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Constant attenuation coef.&lt;br /&gt;(1 / (constant + linear * dist + quadratic * dist * dist))</Original>
+        <English>&lt;%2&gt;Attenuation - Constant&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Constant attenuation coef.&lt;br /&gt;(1 / (constant + linear * dist + quadratic * dist * dist))</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_008">
+        <Original>&lt;%2&gt;Attenuation - Linear&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Linear attenuation coef.&lt;br /&gt;(1 / (constant + linear * dist + quadratic * dist * dist))</Original>
+        <English>&lt;%2&gt;Attenuation - Linear&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Linear attenuation coef.&lt;br /&gt;(1 / (constant + linear * dist + quadratic * dist * dist))</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_009">
+        <Original>&lt;%2&gt;Attenuation - Quadratic&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Quadratic attenuation coef.&lt;br /&gt;(1 / (constant + linear * dist + quadratic * dist * dist))</Original>
+        <English>&lt;%2&gt;Attenuation - Quadratic&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Quadratic attenuation coef.&lt;br /&gt;(1 / (constant + linear * dist + quadratic * dist * dist))</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_010">
+        <Original>&lt;%2&gt;Attenuation - Hardlimit start&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Optional, max distance hard limit start (start of fading of intensity to 0) in m</Original>
+        <English>&lt;%2&gt;Attenuation - Hardlimit start&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Optional, max distance hard limit start (start of fading of intensity to 0) in m</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_011">
+        <Original>&lt;%2&gt;Attenuation - Hardlimit end&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Optional, max distance hard limit end (end of fading of intensity to 0) in m</Original>
+        <English>&lt;%2&gt;Attenuation - Hardlimit end&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Optional, max distance hard limit end (end of fading of intensity to 0) in m</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_012">
+        <Original>&lt;%2&gt;Position&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Position3D. Position relative to the emitter itself, or if the emitter is attached to something position relative to the object it is attached to.</Original>
+        <English>&lt;%2&gt;Position&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Position3D. Position relative to the emitter itself, or if the emitter is attached to something position relative to the object it is attached to.</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_013">
+        <Original>&lt;%2&gt;Use flare&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Toggle flare on/off. Flare is the 'star' shaped effect on the light source.</Original>
+        <English>&lt;%2&gt;Use flare&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Toggle flare on/off. Flare is the 'star' shaped effect on the light source.</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_014">
+        <Original>&lt;%2&gt;Flare size&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Size of the flare effect, in meters.</Original>
+        <English>&lt;%2&gt;Flare size&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Size of the flare effect, in meters.</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_015">
+        <Original>&lt;%2&gt;Flare max distance&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Maximum distance the flare effect is visible to, in meters.</Original>
+        <English>&lt;%2&gt;Flare max distance&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Maximum distance the flare effect is visible to, in meters.</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_016">
+        <Original>&lt;%2&gt;Visible in daylight&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Toggle daytime visibility on/off.</Original>
+        <English>&lt;%2&gt;Visible in daylight&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Toggle daytime visibility on/off.</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_017">
+        <Original>&lt;%2&gt;Attached to&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The object the light is attached to (object referer)</Original>
+        <English>&lt;%2&gt;Attached to&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The object the light is attached to (object referer)</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_018">
+        <Original>&lt;%2&gt;Selection&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The selection name the light is attached to on the object, if any.</Original>
+        <English>&lt;%2&gt;Selection&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The selection name the light is attached to on the object, if any.</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_019">
+        <Original>&lt;%2&gt;Die out&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Die out timer since the light started to emit, in seconds, after which the light emitters is deleted.</Original>
+        <English>&lt;%2&gt;Die out&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Die out timer since the light started to emit, in seconds, after which the light emitters is deleted.</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_020">
+        <Original>&lt;%2&gt;Follow objectHide&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Toggles whether the selected light emitter will follow the objectHide status of the object it's attached to.&lt;br /&gt;Means that if this is NOT toggled emitter attached to an object that is set to &lt;%10&gt;hideObject true&lt;%3&gt; in scenario runtime will not hide with the object.&lt;br /&gt;&lt;br /&gt;Might seem odd to have this optional but this starts a looping script for each object so for performance's sake this is optional, no need to use if you know hideObject will not be used.</Original>
+        <English>&lt;%2&gt;Follow objectHide&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Toggles whether the selected light emitter will follow the objectHide status of the object it's attached to.&lt;br /&gt;Means that if this is NOT toggled emitter attached to an object that is set to &lt;%10&gt;hideObject true&lt;%3&gt; in scenario runtime will not hide with the object.&lt;br /&gt;&lt;br /&gt;Might seem odd to have this optional but this starts a looping script for each object so for performance's sake this is optional, no need to use if you know hideObject will not be used.</English>
+      </Key>
+      <Key ID="STR_HNEG_LELPStep_021">
+        <Original>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</Original>
+        <English>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</English>
+      </Key>
+    </Container>
+    <Container name="SavePreset">
+      <Key ID="STR_HNEG_LESP_name">
+        <Original>Light Editor: Save Preset Leaf</Original>
+        <English>Light Editor: Save Preset Leaf</English>
+      </Key>
+      <Key ID="STR_HNEG_LESPStep_000">
+        <Original>&lt;%2&gt;Save preset&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Same stuff as with saving particle presets.</Original>
+        <English>&lt;%2&gt;Save preset&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Same stuff as with saving particle presets.</English>
+      </Key>
+      <Key ID="STR_HNEG_LESPStep_001">
+        <Original>It obviously requires a name.&lt;br /&gt;Don't use any special characters other than &lt;%10&gt;underscore&lt;%3&gt;, nor any non-english alphabet characters.</Original>
+        <English>It obviously requires a name.&lt;br /&gt;Don't use any special characters other than &lt;%10&gt;underscore&lt;%3&gt;, nor any non-english alphabet characters.</English>
+      </Key>
+      <Key ID="STR_HNEG_LESPStep_002">
+        <Original>&lt;%2&gt;Description&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;You can also give it a optional description.&lt;br /&gt;This description appears as tooltip in the &lt;%10&gt;Load Preset&lt;%3&gt; list when you hover over an item in it.</Original>
+        <English>&lt;%2&gt;Description&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;You can also give it a optional description.&lt;br /&gt;This description appears as tooltip in the &lt;%10&gt;Load Preset&lt;%3&gt; list when you hover over an item in it.</English>
+      </Key>
+      <Key ID="STR_HNEG_LESPStep_003">
+        <Original>&lt;%2&gt;Save Button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Saves the light params as a preset with the given name.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ENTER&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>&lt;%2&gt;Save Button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Saves the light params as a preset with the given name.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ENTER&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_LESPStep_004">
+        <Original>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</Original>
+        <English>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</English>
+      </Key>
+    </Container>
+    <Container name="LoadPreset">
+      <Key ID="STR_HNEG_LELOP_name">
+        <Original>Light Editor: Load Preset Leaf</Original>
+        <English>Light Editor: Load Preset Leaf</English>
+      </Key>
+      <Key ID="STR_HNEG_LELOPStep_000">
+        <Original>&lt;%2&gt;Load preset&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Same stuff as with loading particle presets.</Original>
+        <English>&lt;%2&gt;Load preset&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Same stuff as with loading particle presets.</English>
+      </Key>
+      <Key ID="STR_HNEG_LELOPStep_001">
+        <Original>&lt;%2&gt;Preset list&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Presets are listed here.</Original>
+        <English>&lt;%2&gt;Preset list&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Presets are listed here.</English>
+      </Key>
+      <Key ID="STR_HNEG_LELOPStep_002">
+        <Original>&lt;%2&gt;Load button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;'Injects' the selected preset into the currently selected emitter.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ENTER&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>&lt;%2&gt;Load button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;'Injects' the selected preset into the currently selected emitter.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;ENTER&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_LELOPStep_003">
+        <Original>&lt;%2&gt;Delete button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Deletes the selected preset from the preset list, permanently.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;DELETE&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>&lt;%2&gt;Delete button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Deletes the selected preset from the preset list, permanently.&lt;br /&gt;Keyboard shortcut: &lt;%10&gt;&lt;%2&gt;DELETE&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_LELOPStep_004">
+        <Original>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</Original>
+        <English>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</English>
+      </Key>
+    </Container>
+    <Container name="LEXP">
+      <Key ID="STR_HNEG_LEXP_name">
+        <Original>Light Editor: Export/Import Leaf</Original>
+        <English>Light Editor: Export/Import Leaf</English>
+      </Key>
+      <Key ID="STR_HNEG_LEXPStep_000">
+        <Original>&lt;%2&gt;Export/Import&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Pretty much the same stuff as with the particle export/import. But as the preset stuffs are handled in their own leafs this includes 'just' the exporting and 'pasting' parameters.</Original>
+        <English>&lt;%2&gt;Export/Import&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Pretty much teh same stuff as with the particle export/import. But as the preset stuffs are handled in their own leafs this includes 'just' the exporting and 'pasting' parameters.</English>
+      </Key>
+      <Key ID="STR_HNEG_LEXPStep_001">
+        <Original>&lt;%2&gt;Export&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Each light related scripting command has it's own data field, calling them &lt;%10&gt;export fields&lt;%3&gt;.&lt;br /&gt;When a light emitter is selected it's parameters get 'printed' into their respective fields.</Original>
+        <English>&lt;%2&gt;Export&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Each light related scripting command has it's own data field, calling them &lt;%10&gt;export fields&lt;%3&gt;.&lt;br /&gt;When a light emitter is selected it's parameters get 'printed' into their respective fields.</English>
+      </Key>
+      <Key ID="STR_HNEG_LEXPStep_002">
+        <Original>&lt;%2&gt;Clear button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Clears the 'export fields' of all data.</Original>
+        <English>&lt;%2&gt;Clear button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Clears the 'export fields' of all data.</English>
+      </Key>
+      <Key ID="STR_HNEG_LEXPStep_003">
+        <Original>&lt;%2&gt;Export button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Pressing the &lt;%10&gt;Eport button&lt;%3&gt; will export the parameters into the clipboard and into the .rpt file.&lt;br /&gt;By default exports the parameters of ALL emitters in the scenario.&lt;br /&gt;&lt;br /&gt;To export in config format (config class) hold down &lt;%10&gt;&lt;%2&gt;CTRL&lt;%3&gt;&lt;%3&gt; and press the Export button. The other settings apply with this as well, export is just in config format.</Original>
+        <English>&lt;%2&gt;Export button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Pressing the &lt;%10&gt;Eport button&lt;%3&gt; will export the parameters into the clipboard and into the .rpt file.&lt;br /&gt;By default exports the parameters of ALL emitters in the scenario.&lt;br /&gt;&lt;br /&gt;To export in config format (config class) hold down &lt;%10&gt;&lt;%2&gt;CTRL&lt;%3&gt;&lt;%3&gt; and press the Export button. The other settings apply with this as well, export is just in config format.</English>
+      </Key>
+      <Key ID="STR_HNEG_LEXPStep_004">
+        <Original>&lt;%2&gt;Export current only&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Checking this will limit the exporting to only the currently shown parameters.</Original>
+        <English>&lt;%2&gt;Export current only&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Checking this will limit the exporting to only the currently shown parameters.</English>
+      </Key>
+      <Key ID="STR_HNEG_LEXPStep_005">
+        <Original>&lt;%2&gt;Lock export fields&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;'Locks' the 'export fields' so that they won't get auto-filled with the export data when selecting emitters. When uncheckd each time you select an emitter it's params along with the scripting commands get populated into the 'export fields.'</Original>
+        <English>&lt;%2&gt;Lock export fields&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;'Locks' the 'export fields' so that they won't get auto-filled with the export data when selecting emitters. When uncheckd each time you select an emitter it's params along with the scripting commands get populated into the 'export fields.'</English>
+      </Key>
+      <Key ID="STR_HNEG_LEXPStep_006">
+        <Original>&lt;%2&gt;Paste Params button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The naming of the buttons is a tad sucky, but this button 'injects' the parameters visible in the &lt;%10&gt;export fields&lt;%3&gt; into the currently selected emitter.&lt;br /&gt;So, with this you can 'import' light effects you may have previously done in your scripts by copying the parameters into their respective fields, selecting an emitter and pressing this &lt;%10&gt;Paste Params&lt;%3&gt; button.</Original>
+        <English>&lt;%2&gt;Paste Params button&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The naming of the buttons is a tad sucky, but this button 'injects' the parameters visible in the &lt;%10&gt;export fields&lt;%3&gt; into the currently selected emitter.&lt;br /&gt;So, with this you can 'import' light effects you may have previously done in your scripts by copying the parameters into their respective fields, selecting an emitter and pressing this &lt;%10&gt;Paste Params&lt;%3&gt; button.</English>
+      </Key>
+      <Key ID="STR_HNEG_LEXPStep_007">
+        <Original>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</Original>
+        <English>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</English>
+      </Key>
+    </Container>
+    <Container name="BINDS">
+      <Key ID="STR_HNEG_BINDS_name">
+        <Original>Keyboard shortcuts</Original>
+        <English>Keyboard shortcuts</English>
+      </Key>
+      <Key ID="STR_HNEG_BINDSStep_000">
+        <Original>&lt;%2&gt;KEYBOARD SHORTCUTS&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;CTRL + ALT + E&lt;%3&gt;&lt;%3&gt;- Launch the tool&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;INSERT&lt;%3&gt;&lt;%3&gt; - place down an emitter&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;SHIFT + INSERT&lt;%3&gt;&lt;%3&gt; - place down the default emitter set (if toggled in prefs)&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;SHIFT + A&lt;%3&gt;&lt;%3&gt; - Select attach mode&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;ALT + A&lt;%3&gt;&lt;%3&gt; - Attach emitter(s) to object&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;SHIFT + ALT + A&lt;%3&gt;&lt;%3&gt; - Attach dragged emitter(s) to object&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;SHIFT + CTRL + C&lt;%3&gt;&lt;%3&gt; - Clone selected emitter&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;SHIFT + ALT + D&lt;%3&gt;&lt;%3&gt; - Disable/enable all emitters emitting in Eden&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;CTRL + ALT + D&lt;%3&gt;&lt;%3&gt; - Disable/enable selected emitter(s) from emitting in Eden&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;ALT + G&lt;%3&gt;&lt;%3&gt; - Group emitter into a set with other emitter(s)&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;ALT + Q&lt;%3&gt;&lt;%3&gt; - Select next emitter in the list&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;ALT + Z&lt;%3&gt;&lt;%3&gt; - select previous emitter in the list&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;SHIFT + ALT + R&lt;%3&gt;&lt;%3&gt; - Rename selected emitter&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;ALT + S&lt;%3&gt;&lt;%3&gt; - Synchronize trigger with emitter(s)&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;ALT + F1&lt;%3&gt;&lt;%3&gt; - Switch to Particle editor&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;ALT + F2&lt;%3&gt;&lt;%3&gt; - Switch to Light editor&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;CTRL + 1...8&lt;%3&gt;&lt;%3&gt; - Select main menu leaf&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;CTRL + HOME&lt;%3&gt;&lt;%3&gt; - Move camera to selected emitter&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;CTRL + BACKSPACE&lt;%3&gt;&lt;%3&gt; - Hide/show tool UI&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;CTRL + ESC&lt;%3&gt;&lt;%3&gt; - Shutdown tool&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;ALT + D&lt;%3&gt;&lt;%3&gt; - Disable/enable all emitter(s) from emitting in Eden&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;T&lt;%3&gt;&lt;%3&gt; - Hold down T for terrain object highlighting&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;CTRL + ALT + WINDOWS KEY&lt;%3&gt;&lt;%3&gt; - Show selected sprite texture&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;SHIFT + ALT + WINDOWS KEY&lt;%3&gt;&lt;%3&gt; - Hide shown selected sprite texture</Original>
+        <English>&lt;%2&gt;KEYBOARD SHORTCUTS&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;CTRL + ALT + E&lt;%3&gt;&lt;%3&gt;- Launch the tool&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;INSERT&lt;%3&gt;&lt;%3&gt; - place down an emitter&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;SHIFT + INSERT&lt;%3&gt;&lt;%3&gt; - place down the default emitter set (if toggled in prefs)&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;SHIFT + A&lt;%3&gt;&lt;%3&gt; - Select attach mode&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;ALT + A&lt;%3&gt;&lt;%3&gt; - Attach emitter(s) to object&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;SHIFT + ALT + A&lt;%3&gt;&lt;%3&gt; - Attach dragged emitter(s) to object&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;SHIFT + ALT + C&lt;%3&gt;&lt;%3&gt; - Clone selected emitter&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;SHIFT + ALT + D&lt;%3&gt;&lt;%3&gt; - Disable/enable all emitters emitting in Eden&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;CTRL + ALT + D&lt;%3&gt;&lt;%3&gt; - Disable/enable selected emitter(s) from emitting in Eden&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;ALT + G&lt;%3&gt;&lt;%3&gt; - Group emitter into a set with other emitter(s)&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;ALT + Q&lt;%3&gt;&lt;%3&gt; - Select next emitter in the list&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;ALT + Z&lt;%3&gt;&lt;%3&gt; - select previous emitter in the list&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;SHIFT + ALT + R&lt;%3&gt;&lt;%3&gt; - Rename selected emitter&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;ALT + S&lt;%3&gt;&lt;%3&gt; - Synchronize trigger with emitter(s)&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;ALT + F1&lt;%3&gt;&lt;%3&gt; - Switch to Particle editor&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;ALT + F2&lt;%3&gt;&lt;%3&gt; - Switch to Light editor&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;CTRL + 1...8&lt;%3&gt;&lt;%3&gt; - Select main menu leaf&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;CTRL + HOME&lt;%3&gt;&lt;%3&gt; - Move camera to selected emitter&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;CTRL + BACKSPACE&lt;%3&gt;&lt;%3&gt; - Hide/show tool UI&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;CTRL + ESC&lt;%3&gt;&lt;%3&gt; - Shutdown tool&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;ALT + D&lt;%3&gt;&lt;%3&gt; - Disable/enable all emitter(s) from emitting in Eden&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;T&lt;%3&gt;&lt;%3&gt; - Hold down T for terrain object highlighting&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;CTRL + ALT + WINDOWS KEY&lt;%3&gt;&lt;%3&gt; - Show selected sprite texture&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;SHIFT + ALT + WINDOWS KEY&lt;%3&gt;&lt;%3&gt; - Hide shown selected sprite texture</English>
+      </Key>
+    </Container>
+    <Container name="Attach">
+      <Key ID="STR_HNEG_ATT_name">
+        <Original>Attaching Emitters</Original>
+        <English>Attaching Emitters</English>
+      </Key>
+      <Key ID="STR_HNEG_ATTStep_000">
+        <Original>&lt;%2&gt;Attaching Emitters&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This tool features a total of four ways to attach an emitter to an entity or a terrain object. Three of them are 'attach modes' which have to be selected separately before attaching and the fourth exists only as a keyboard shortcut&lt;br /&gt;1. &lt;%2&gt;Basic attach&lt;%3&gt;&lt;br /&gt;2. &lt;%2&gt;Selection Attach&lt;%3&gt;&lt;br /&gt;3. &lt;%2&gt;Global Attach&lt;%3&gt;&lt;br /&gt;4. &lt;%2&gt;'Dragged Attach'&lt;%3&gt; (the shortcut-only method)</Original>
+        <English>&lt;%2&gt;Attaching Emitters&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This tool features a total of four ways to attach an emitter to an entity or a terrain object. Three of them are 'attach modes' which have to be selected separately before attaching and the fourth exists only as a keyboard shortcut&lt;br /&gt;1. &lt;%2&gt;Basic attach&lt;%3&gt;&lt;br /&gt;2. &lt;%2&gt;Selection Attach&lt;%3&gt;&lt;br /&gt;3. &lt;%2&gt;Global Attach&lt;%3&gt;&lt;br /&gt;4. &lt;%2&gt;'Dragged Attach'&lt;%3&gt; (the shortcut-only method)</English>
+      </Key>
+      <Key ID="STR_HNEG_ATTStep_001">
+        <Original>&lt;%2&gt;Selecting the attach mode&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Attach mode is selected from the &lt;%2&gt;&lt;%10&gt;'Attach mode selector'&lt;%3&gt;&lt;%3&gt; button. When you press the button the image on it changes to indicate the current selected attach mode:&lt;br /&gt;&lt;br /&gt;&lt;img image='%11' /&gt; Basic Attach&lt;br /&gt;&lt;img image='%12' /&gt; Selection Attach&lt;br /&gt;&lt;img image='%13' /&gt; Global Attach&lt;br /&gt;&lt;br /&gt;These attach modes can also be 'cycled' with the keyboard shortcut: &lt;%10&gt;&lt;%2&gt;SHIFT + A&lt;%3&gt;&lt;%3&gt;</Original>
+        <English>&lt;%2&gt;Selecting the attach mode&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Attach mode is selected from the &lt;%2&gt;&lt;%10&gt;'Attach mode selector'&lt;%3&gt;&lt;%3&gt; button. When you press the button the image on it changes to indicate the current selected attach mode:&lt;br /&gt;&lt;br /&gt;&lt;img image='%11' /&gt; Basic Attach&lt;br /&gt;&lt;img image='%12' /&gt; Selection Attach&lt;br /&gt;&lt;img image='%13' /&gt; Global Attach&lt;br /&gt;&lt;br /&gt;These attach modes can also be 'cycled' with the keyboard shortcut: &lt;%10&gt;&lt;%2&gt;SHIFT + A&lt;%3&gt;&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_ATTStep_002">
+        <Original>&lt;img image='%11' /&gt;  &lt;%2&gt;Basic Attach&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;You could think of it as the same as the basic attachTo scripting command. With this attach mode the emitter will attach to the object position (AGL, in model space of course). The position differs on different object types, on soldier the position is at it's feet, on a chopper it's somewhere in the middle of it's frame, etc.</Original>
+        <English>&lt;img image='%11' /&gt;  &lt;%2&gt;Basic Attach&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;You could think of it as the same as the basic attachTo scripting command. With this attach mode the emitter will attach to the object position (AGL, in model space of course). The position differs on different object types, on soldier the position is at it's feet, on a chopper it's somewhere in the middle of it's frame, etc.</English>
+      </Key>
+      <Key ID="STR_HNEG_ATTStep_002b">
+        <Original>How to attach:&lt;br /&gt;&lt;br /&gt;While basic attach mode selected select the emitter, hover over the object you wish to attach the emitter to so that the object gets highlighted and press &lt;%10&gt;&lt;%2&gt;ALT + A&lt;%3&gt;&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;You will hear a sound and the effect moves to the object while the emitter icon is moved to a 'hardcoded' relative position from the object and is connected to the object with a pink 'attach line'.</Original>
+        <English>How to attach:&lt;br /&gt;&lt;br /&gt;While basic attach mode selected select the emitter, hover over the object you wish to attach the emitter to so that the object gets highlighted and press &lt;%10&gt;&lt;%2&gt;ALT + A&lt;%3&gt;&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;You will hear a sound and the effect moves to the object while the emitter icon is moved to a 'hardcoded' relative position from the object and is connected to the object with a pink 'attach line'.</English>
+      </Key>
+      <Key ID="STR_HNEG_ATTStep_003">
+        <Original>&lt;img image='%11' /&gt;  &lt;%2&gt;Selection Attach&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;As the name suggests this attach mode is for attaching the emitter to the object's model selections.&lt;br /&gt;For this to work it of course requires the object model to have selections. Most of them do but for example Props mostly have none.&lt;br /&gt;For terrain objects possible buildingPositions will be included as well.&lt;br /&gt;&lt;br /&gt;If trying to attach to an object with no selections a notification message is shown.</Original>
+        <English>&lt;img image='%11' /&gt;  &lt;%2&gt;Selection Attach&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;As the name suggests this attach mode is for attaching the emitter to the object's model selections.&lt;br /&gt;For this to work it of course requires the object model to have selections. Most of them do but for example Props mostly have none.&lt;br /&gt;For terrain objects possible buildingPositions will be included as well.&lt;br /&gt;&lt;br /&gt;If trying to attach to an object with no selections a notification message is shown.</English>
+      </Key>
+      <Key ID="STR_HNEG_ATTStep_003b">
+        <Original>How to attach:&lt;br /&gt;&lt;br /&gt;While selection attach mode selected select the emitter, hover over the object you wish to attach the emitter to so that the object gets highlighted and press &lt;%10&gt;&lt;%2&gt;ALT + A&lt;%3&gt;&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;A new 'sub-leaf' opens on the tool UI with a list of available model selections on the selected object and the emitter icon is connected to the object with a red line.&lt;br /&gt;When you select a selection from the list you can see how the effect moves to the selected selection position while the emitter icon stays still.&lt;br /&gt;&lt;br /&gt;Once selected the selection you want &lt;%2&gt;OK&lt;%3&gt; (or &lt;%10&gt;&lt;%2&gt;ENTER&lt;%3&gt;&lt;%3&gt;) confirms it. &lt;%2&gt;Cancel&lt;%3&gt; (or &lt;%10&gt;&lt;%2&gt;ESC&lt;%3&gt;&lt;%3&gt;) discards the attach and the effect returns to the emitter icon. Also closes the sub-leaf.</Original>
+        <English>How to attach:&lt;br /&gt;&lt;br /&gt;While selection attach mode selected select the emitter, hover over the object you wish to attach the emitter to so that the object gets highlighted and press &lt;%10&gt;&lt;%2&gt;ALT + A&lt;%3&gt;&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;A new 'sub-leaf' opens on the tool UI with a list of available model selections on the selected object and the emitter icon is connected to the object with a red line.&lt;br /&gt;When you select a selection from the list you can see how the effect moves to the selected selection position while the emitter icon stays still.&lt;br /&gt;&lt;br /&gt;Once selected the selection you want &lt;%2&gt;OK&lt;%3&gt; (or &lt;%10&gt;&lt;%2&gt;ENTER&lt;%3&gt;&lt;%3&gt;) confirms it. &lt;%2&gt;Cancel&lt;%3&gt; (or &lt;%10&gt;&lt;%2&gt;ESC&lt;%3&gt;&lt;%3&gt;) discards the attach and the effect returns to the emitter icon. Also closes the sub-leaf.</English>
+      </Key>
+      <Key ID="STR_HNEG_ATTStep_003c">
+        <Original>&lt;%2&gt;NOTE:&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Not all of the model selections are necessarily listed on the list because by default only selections that are off of the object position are listed as those selections don't really make sense to list as the Basic Attach attaches to that position.&lt;br /&gt;Also some objects may have several instances of the same selection across different LODs (Level Of Detail) and by default only the first encountered selection is listed.&lt;br /&gt;&lt;br /&gt;To list all selections check the box labeled 'Show all selections'.</Original>
+        <English>&lt;%2&gt;NOTE:&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Not all of the model selections are necessarily listed on the list because by default only selections that are off of the object position are listed as those selections don't really make sense to list as the Basic Attach attaches to that position.&lt;br /&gt;Also some objects may have several instances of the same selection across different LODs (Level Of Detail) and by default only the first encountered selection is listed.&lt;br /&gt;&lt;br /&gt;To list all selections check the box labeled 'Show all selections'.</English>
+      </Key>
+      <Key ID="STR_HNEG_ATTStep_004">
+        <Original>&lt;img image='%11' /&gt;  &lt;%2&gt;Global Attach&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is the most advanced of the attach modes. this allows you to attach the selected emitter to any object anywhere, even inside buildings (on walls, ceiligs etc).</Original>
+        <English>&lt;img image='%11' /&gt;  &lt;%2&gt;Global Attach&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is the most advanced of the attach modes. this allows you to attach the selected emitter to any object anywhere, even inside buildings (on walls, ceiligs etc).</English>
+      </Key>
+      <Key ID="STR_HNEG_ATTStep_004b">
+        <Original>How to attach:&lt;br /&gt;&lt;br /&gt;While global attach mode selected select the emitter and press &lt;%10&gt;&lt;%2&gt;ALT + A&lt;%3&gt;&lt;%3&gt;&lt;br /&gt;You will see the emitter move to the camera aim center. Press and hold down the right mouse button and move the mouse around. The emitter will follow where the camera is aiming at.&lt;br /&gt;&lt;br /&gt;When satisfied with the position of the emitter press left mouse button to confirm attach (this is also indicated by a sound effect).&lt;br /&gt;&lt;br /&gt;To cancel the attach point the camera over empty area and press &lt;%10&gt;&lt;%2&gt;ALT + A&lt;%3&gt;&lt;%3&gt; again.</Original>
+        <English>How to attach:&lt;br /&gt;&lt;br /&gt;While global attach mode selected select the emitter and press &lt;%10&gt;&lt;%2&gt;ALT + A&lt;%3&gt;&lt;%3&gt;&lt;br /&gt;You will see the emitter move to the camera aim center. Press and hold down the right mouse button and move the mouse around. The emitter will follow where the camera is aiming at.&lt;br /&gt;&lt;br /&gt;When satisfied with the position of the emitter press left mouse button to confirm attach (this is also indicated by a sound effect).&lt;br /&gt;&lt;br /&gt;To cancel the attach point the camera over empty area and press &lt;%10&gt;&lt;%2&gt;ALT + A&lt;%3&gt;&lt;%3&gt; again.</English>
+      </Key>
+      <Key ID="STR_HNEG_ATTStep_005">
+        <Original>&lt;%2&gt;SHIFT + ALT + A&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The last way to attach exists as a kb shortcut only. This requires the Eden Surface snapping enabled. Also the tool preference 'Disable Surface Snap Slavery' should be &lt;%2&gt;unchecked&lt;%3&gt;.&lt;br /&gt;&lt;br /&gt;Works only with Eden entities.</Original>
+        <English>&lt;%2&gt;SHIFT + ALT + A&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The last way to attach exists as a kb shortcut only. This requires the Eden Surface snapping enabled. Also the tool preference 'Disable Surface Snap Slavery' should be &lt;%2&gt;unchecked&lt;%3&gt;.&lt;br /&gt;&lt;br /&gt;Works only with Eden entities.</English>
+      </Key>
+      <Key ID="STR_HNEG_ATTStep_005b">
+        <Original>How to attach:&lt;br /&gt;&lt;br /&gt;Drag the emitter over some Eden entity. The emitter will follow the entity surfaces like with the Global attach but the difference here is is that this does not work inside buildings and so on.&lt;br /&gt;Once satisfied with the emitter position press &lt;%10&gt;&lt;%2&gt;CTRL + ALT + A&lt;%3&gt;&lt;%3&gt; and the emitter is attached to the entity on that spot.</Original>
+        <English>How to attach:&lt;br /&gt;&lt;br /&gt;Drag the emitter over some Eden entity. The emitter will follow the entity surfaces like with the Global attach but the difference here is is that this does not work inside buildings and so on.&lt;br /&gt;Once satisfied with the emitter position press &lt;%10&gt;&lt;%2&gt;CTRL + ALT + A&lt;%3&gt;&lt;%3&gt; and the emitter is attached to the entity on that spot.</English>
+      </Key>
+      <Key ID="STR_HNEG_ATTStep_005c">
+        <Original>&lt;%2&gt;NOTE&lt;%3&gt;: All these attach modes are of course available for the light emitters as well, even though this turorial uses just the particle editor for the examples.</Original>
+        <English>&lt;%2&gt;NOTE&lt;%3&gt;: All these attach modes are of course available for the light emitters as well, even though this turorial uses just the particle editor for the examples.</English>
+      </Key>
+      <Key ID="STR_HNEG_ATTStep_005d">
+        <Original>&lt;%2&gt;Attach Finesse&lt;%3&gt;:&lt;br /&gt;&lt;br /&gt;The Basic, Global and kb shortcut attach modes can be finetuned by two ways:&lt;br /&gt;1. Adjusting the values in the Position field. Note that the values are in model space.&lt;br /&gt;2. Adjusting the emitter's position with the Translation Widget; activate the widget, select the emitter to adjust, press and hold down &lt;%10&gt;&lt;%2&gt;CTRL&lt;%3&gt;&lt;%3&gt; on your keyboard → the emitter gets a green “move reticle” indicating it can be move with the widget.</Original>
+        <English>&lt;%2&gt;Attach Finesse&lt;%3&gt;:&lt;br /&gt;&lt;br /&gt;The Basic, Global and kb shortcut attach modes can be finetuned by two ways:&lt;br /&gt;1. Adjusting the values in the Position field. Note that the values are in model space.&lt;br /&gt;2. Adjusting the emitter's position with the Translation Widget; activate the widget, select the emitter to adjust, press and hold down &lt;%10&gt;&lt;%2&gt;CTRL&lt;%3&gt;&lt;%3&gt; on your keyboard → the emitter gets a green “move reticle” indicating it can be move with the widget.</English>
+      </Key>
+      <Key ID="STR_HNEG_ATTStep_006">
+        <Original>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</Original>
+        <English>Done.&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;Check out the full documentation&lt;%11&gt;</English>
+      </Key>
+    </Container>
+    <Container name="interacting">
+      <Key ID="STR_HNEG_IACT_name">
+        <Original>Interacting with the emitters in-game</Original>
+        <English>Interacting with the emitters in-game</English>
+      </Key>
+      <Key ID="STR_HNEG_IACTStep_000">
+        <Original>There are a few ways to directly interact 'in-game' (preview/playing exported scenario) with the emitters placed by this tool.&lt;br /&gt;By directly I mean affect the emitters in some way, be it simply deleting them or changing the parameters, or defining when they will start emitting and they will stop.</Original>
+        <English>There are a few ways to directly interact 'in-game' (preview/playing exported scenario) with the emitters placed by this tool.&lt;br /&gt;By directly I mean affect the emitters in some way, be it simply deleting them or changing the parameters, or defining when they will start emitting and they will stop.</English>
+      </Key>
+      <Key ID="STR_HNEG_IACTStep_001">
+        <Original>The most simple ones are the two tool parameters that can be found in the tool's &lt;%2&gt;Particle editor 'Special' leaf&lt;%3&gt; and the &lt;%2&gt;Light editor Light Params leaf:&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;&lt;%2&gt;- Die out&lt;%3&gt;&lt;br /&gt;&lt;%2&gt;- Follow objectHide&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;These were already explained in the respective leaf tutorial sections but repetition is the mother of learning.</Original>
+        <English>The most simple ones are the two tool parameters that can be found in the tool's &lt;%2&gt;Particle editor 'Special' leaf&lt;%3&gt; and the &lt;%2&gt;Light editor Light Params leaf:&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;&lt;%2&gt;- Die out&lt;%3&gt;&lt;br /&gt;&lt;%2&gt;- Follow objectHide&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;These were already explained in the respective leaf tutorial sections but repetition is the mother of learning.</English>
+      </Key>
+      <Key ID="STR_HNEG_IACTStep_002">
+        <Original>&lt;%2&gt;Die out&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is a timer, in seconds, after which the currently selected emitter/emitter set will be deleted.&lt;br /&gt;Time is measured from the scenario start.</Original>
+        <English>&lt;%2&gt;Die out&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This is a timer, in seconds, after which the currently selected emitter/emitter set will be deleted.&lt;br /&gt;Time is measured from the scenario start.</English>
+      </Key>
+      <Key ID="STR_HNEG_IACTStep_003">
+        <Original>&lt;%2&gt;Follow objectHide&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Toggles whether the selected emitter will follow the objectHide status of the object it's attached to.&lt;br /&gt;Means that if this is NOT toggled emitter attached to an object that is set to &lt;%10&gt;hideObject true&lt;%3&gt; in scenario runtime will NOT hide with the object.&lt;br /&gt;&lt;br /&gt;Might seem odd to have this optional but this starts a looping script for each object so for performance's sake this is optional, no need to use if you know hideObject will not be used. Looping script is required because there is no eventhandlers for this..&lt;br /&gt;&lt;br /&gt;If you're using Dynamic Simulation you may need to enable this if your emitters are attached to objects although the game does already cull particles and lights.</Original>
+        <English>&lt;%2&gt;Follow objectHide&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Toggles whether the selected emitter will follow the objectHide status of the object it's attached to.&lt;br /&gt;Means that if this is NOT toggled emitter attached to an object that is set to &lt;%10&gt;hideObject true&lt;%3&gt; in scenario runtime will NOT hide with the object.&lt;br /&gt;&lt;br /&gt;Might seem odd to have this optional but this starts a looping script for each object so for performance's sake this is optional, no need to use if you know hideObject will not be used. Looping script is required because there is no eventhandlers for this..&lt;br /&gt;&lt;br /&gt;If you're using Dynamic Simulation you may need to enable this if your emitters are attached to objects although the game does already cull particles and lights.</English>
+      </Key>
+      <Key ID="STR_HNEG_IACTStep_004">
+        <Original>There's a third editor based solution for controlling the appearing and disappearing of the emitters: &lt;%2&gt;Triggers.&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Emitter 3Ditor includes a special trigger sync functionality toggled with a specific keyboard shortcut &lt;%10&gt;&lt;%2&gt;ALT + S&lt;%3&gt;&lt;%3&gt;.&lt;br /&gt;&lt;br /&gt;&lt;%2&gt;NOTE that the regular Eden Sync does NOT activate this feature.&lt;%3&gt;</Original>
+        <English>There's a third editor based solution for controlling the appearing and disappearing of the emitters: &lt;%2&gt;Triggers.&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;Emitter 3Ditor includes a special trigger sync functionality toggled with a specific keyboard shortcut &lt;%10&gt;&lt;%2&gt;ALT + S&lt;%3&gt;&lt;%3&gt;.&lt;br /&gt;&lt;br /&gt;&lt;%2&gt;NOTE that the regular Eden Sync does NOT activate this feature.&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_IACTStep_005">
+        <Original>How it works:&lt;br /&gt;&lt;br /&gt;If you sync trigger with an emitter using the kb shortcut &lt;%10&gt;&lt;%2&gt;ALT + S&lt;%3&gt;&lt;%3&gt; the trigger will get a special name to identify it by (which you can NOT change) and the emitter will 'follow' the trigger activation:&lt;br /&gt;&lt;br /&gt;- If trigger is &lt;%2&gt;not&lt;%3&gt; set to &lt;%10&gt;&lt;%2&gt;Repeatable&lt;%3&gt;&lt;%3&gt; (activates only once) &lt;%2&gt;the emitter synced to it will start emitting once the trigger is triggered.&lt;%3&gt;&lt;br /&gt;- If the trigger &lt;%2&gt;is&lt;%3&gt; set to &lt;%10&gt;&lt;%2&gt;Repeatable&lt;%3&gt;&lt;%3&gt; &lt;%2&gt;the emitter synced to it will start emitting when the trigger activates and stop emitting when the trigger deactivates.&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;To sync select the emitter you wish to sync with the trigger, hover mouse cursor over the trigger so that it gets highlighted (do NOT select it!) and press &lt;%10&gt;&lt;%2&gt;ALT + S&lt;%3&gt;&lt;%3&gt;.&lt;br /&gt;A blue line should appear to indicate sync and the trigger name shown one the Eden entity list should indicate it is now an emitter activator.</Original>
+        <English>How it works:&lt;br /&gt;&lt;br /&gt;If you sync trigger with an emitter using the kb shortcut &lt;%10&gt;&lt;%2&gt;ALT + S&lt;%3&gt;&lt;%3&gt; the trigger will get a special name to identify it by (which you can NOT change) and the emitter will 'follow' the trigger activation:&lt;br /&gt;&lt;br /&gt;- If trigger is &lt;%2&gt;not&lt;%3&gt; set to &lt;%10&gt;&lt;%2&gt;Repeatable&lt;%3&gt;&lt;%3&gt; (activates only once) &lt;%2&gt;the emitter synced to it will start emitting once the trigger is triggered.&lt;%3&gt;&lt;br /&gt;- If the trigger &lt;%2&gt;is&lt;%3&gt; set to &lt;%10&gt;&lt;%2&gt;Repeatable&lt;%3&gt;&lt;%3&gt; &lt;%2&gt;the emitter synced to it will start emitting when the trigger activates and stop emitting when the trigger deactivates.&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;To sync select the emitter you wish to sync with the trigger, hover mouse cursor over the trigger so that it gets highlighted (do NOT select it!) and press &lt;%10&gt;&lt;%2&gt;ALT + S&lt;%3&gt;&lt;%3&gt;.&lt;br /&gt;A blue line should appear to indicate sync and the trigger name shown one the Eden entity list should indicate it is now an emitter activator.</English>
+      </Key>
+      <Key ID="STR_HNEG_IACTStep_006">
+        <Original>The fourth way to interact with the emitter in scenario runtime is via special functions.&lt;br /&gt;These functions will be available to use in your scenario scripts/functions if you set up them correctly into your scenario file structure.&lt;br /&gt;&lt;br /&gt;Where these functions are located depends on your download method:&lt;br /&gt;&lt;br /&gt;- if your downloaded the 7z package 'manually' the functions can be found in that package, folder is called &lt;%10&gt;&lt;%2&gt;HNEG_eed_scenario_functions&lt;%3&gt;&lt;%3&gt; &lt;br /&gt;&lt;br /&gt;- if you downloaded from Steam Workshop you will find the &lt;%10&gt;&lt;%2&gt;HNEG_eed_scenario_functions&lt;%3&gt;&lt;%3&gt; folder in the installation location, which you can access with the game launcher the easiest: in the Mods section click on the Emitter 3Ditor mod - 'show more options' - 'open folder in Windows Explorer'</Original>
+        <English>The fourth way to interact with the emitter in scenario runtime is via special functions.&lt;br /&gt;These functions will be available to use in your scenario scripts/functions if you set up them correctly into your scenario file structure.&lt;br /&gt;&lt;br /&gt;Where these functions are located depends on your download method:&lt;br /&gt;&lt;br /&gt;- if your downloaded the 7z package 'manually' the functions can be found in that package, folder is called &lt;%10&gt;&lt;%2&gt;HNEG_eed_scenario_functions&lt;%3&gt;&lt;%3&gt; &lt;br /&gt;&lt;br /&gt;- if you downloaded from Steam Workshop you will find the &lt;%10&gt;&lt;%2&gt;HNEG_eed_scenario_functions&lt;%3&gt;&lt;%3&gt; folder in the installation location, which you can access with the game launcher the easiest: in the Mods section click on the Emitter 3Ditor mod - 'show more options' - 'open folder in Windows Explorer'</English>
+      </Key>
+      <Key ID="STR_HNEG_IACTStep_007">
+        <Original>For the instructions on how to setup the functions &lt;%10&gt;refer to the Emitter 3Ditor manual&lt;%11&gt; (.pdf) to chapter &lt;%2&gt;IN-GAME FUNCTIONS&lt;%3&gt; (page 94).</Original>
+        <English>For the instructions on how to setup the functions &lt;%10&gt;refer to the Emitter 3Ditor manual&lt;%11&gt; (.pdf) to chapter &lt;%2&gt;IN-GAME FUNCTIONS&lt;%3&gt; (page 94).</English>
+      </Key>
+    </Container>
+    <Container name="cloner">
+      <Key ID="STR_HNEG_CLN_name">
+        <Original>Cloning emitters</Original>
+        <English>Cloning emitters</English>
+      </Key>
+      <Key ID="STR_HNEG_CLNStep_000">
+        <Original>&lt;%2&gt;Cloning emitters&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The emitters inserted via this tool do not support the normal Eden copy/paste which is why this cloning feature exists.&lt;br /&gt;This is also the case with the Eden entities that have emitters set via their attributes ('attribute emitters').&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;IMPORTANT NOTE:&lt;%3&gt;&lt;%3&gt;&lt;br /&gt;Cloning supports only one emitter, or one entity with attribute emitters at one time. Meaning you can NOT clone more than one emitter or said entity at once.&lt;br /&gt;Emitter sets behave as one emitter so cloning an emitter belonging into a emitter set will clone the whole set.&lt;br /&gt;&lt;br /&gt;&lt;%11&gt;NOTE that possible trigger syncs do not clone, this clones only the emitter or the entity with attribute emitters.&lt;%3&gt;</Original>
+        <English>&lt;%2&gt;Cloning emitters&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;The emitters inserted via this tool do not support the normal Eden copy/paste which is why this cloning feature exists.&lt;br /&gt;This is also the case with the Eden entities that have emitters set via their attributes ('attribute emitters').&lt;br /&gt;&lt;br /&gt;&lt;%10&gt;&lt;%2&gt;IMPORTANT NOTE:&lt;%3&gt;&lt;%3&gt;&lt;br /&gt;Cloning supports only one emitter, or one entity with attribute emitters at one time. Meaning you can NOT clone more than one emitter or said entity at once.&lt;br /&gt;Emitter sets behave as one emitter so cloning an emitter belonging into a emitter set will clone the whole set.&lt;br /&gt;&lt;br /&gt;&lt;%11&gt;NOTE that possible trigger syncs do not clone, this clones only the emitter or the entity with attribute emitters.&lt;%3&gt;</English>
+      </Key>
+      <Key ID="STR_HNEG_CLNStep_001">
+        <Original>Cloning can be done by two ways:&lt;br /&gt;by pressing the &lt;%2&gt;Clone&lt;%3&gt; button or via a keyboard shortcut &lt;%10&gt;SHIFT + CTRL + C&lt;%3&gt;.&lt;br /&gt;&lt;br /&gt;Select the emitter you wish to clone and use either way to clone it. The clone will appear at a random position around the original emitter.&lt;br /&gt;&lt;br /&gt;In case of cloning an entity with attribute emitters you can select either the entity itself or the emitter.</Original>
+        <English>Cloning can be done by two ways:&lt;br /&gt;by pressing the &lt;%2&gt;Clone&lt;%3&gt; button or via a keyboard shortcut &lt;%10&gt;SHIFT + CTRL + C&lt;%3&gt;.&lt;br /&gt;&lt;br /&gt;Select the emitter you wish to clone and use either way to clone it. The clone will appear at a random position around the original emitter.&lt;br /&gt;&lt;br /&gt;In case of cloning an entity with attribute emitters you can select either the entity itself or the emitter.</English>
+      </Key>
+    </Container>
+    <Container name="attribute emitters">
+      <Key ID="STR_HNEG_ATRE_name">
+        <Original>'Attribute Emitters'</Original>
+        <English>'Attribute Emitters'</English>
+      </Key>
+      <Key ID="STR_HNEG_ATREStep_000">
+        <Original>&lt;%2&gt;'Attribute Emitters'&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This may sound odd but using this to describe emitters set to Eden entities via their attributes.&lt;br /&gt;&lt;br /&gt;This is the “true” Eden way of adding emitters, via an entity's attributes. Not all entity types are supported (those which would not make sense to have these attributes). Map objects are also not supported. It is not possible to edit the parameters of these emitters from within the attributes, but it is possible to edit them via the Emitter 3Ditor after setting them up.&lt;br /&gt;&lt;br /&gt;To set up these attribute emitters open some entity's attributes and collapse the Emitter 3Ditor section, then check the box 'Use as emitter'.</Original>
+        <English>&lt;%2&gt;'Attribute Emitters'&lt;%3&gt;&lt;br /&gt;&lt;br /&gt;This may sound odd but using this to describe emitters set to Eden entities via their attributes.&lt;br /&gt;&lt;br /&gt;This is the “true” Eden way of adding emitters, via an entity's attributes. Not all entity types are supported (those which would not make sense to have these attributes). Map objects are also not supported. It is not possible to edit the parameters of these emitters from within the attributes, but it is possible to edit them via the Emitter 3Ditor after setting them up.&lt;br /&gt;&lt;br /&gt;To set up these attribute emitters open some entity's attributes and collapse the Emitter 3Ditor section, then check the box 'Use as emitter'.</English>
+      </Key>
+      <Key ID="STR_HNEG_ATREStep_001">
+        <Original>You can set up to 4 emitters per entity, emitters can be both particle or light emitters.&lt;br /&gt;You can set a particle or light class to each emitter, or if you have already used the main tool and saved parameter presets those can be used here as well.&lt;br /&gt;&lt;br /&gt;If the object in question has named selections in it's 3D model you can also select to attach the given emitter to a selection. Each emitter can be at it's own selection.&lt;br /&gt;&lt;br /&gt;You can also name each emitter individually.&lt;br /&gt;&lt;br /&gt;If you wish to alter the parameters for these emitters open the Emitter 3Ditor tool.</Original>
+        <English>You can set up to 4 emitters per entity, emitters can be both particle or light emitters.&lt;br /&gt;You can set a particle or light class to each emitter, or if you have already used the main tool and saved parameter presets those can be used here as well.&lt;br /&gt;&lt;br /&gt;If the object in question has named selections in it's 3D model you can also select to attach the given emitter to a selection. Each emitter can be at it's own selection.&lt;br /&gt;&lt;br /&gt;You can also name each emitter individually.&lt;br /&gt;&lt;br /&gt;If you wish to alter the parameters for these emitters open the Emitter 3Ditor tool.</English>
+      </Key>
+    </Container>
+    <Container name="Messages">
+      <Key ID="STR_HNEG_onCloseTool">
+        <Original>Are you sure you want to close Emitter 3Ditor?&lt;br /&gt;You will lose all changes made with it; all emitters will be deleted..</Original>
+        <English>Are you sure you want to close Emitter 3Ditor?&lt;br /&gt;You will lose all changes made with it; all emitters will be deleted..</English>
+      </Key>
+      <Key ID="STR_HNEG_onFirstTimeLaunch">
+        <Original>First time launching the Emitter 3Ditor?&lt;br /&gt;I recommend that you start by going through some of the tutorials first.&lt;br /&gt;&lt;br /&gt;Or, just start fiddling; press INSERT on your keyboard after closing this prompt to create an emitter.</Original>
+        <English>First time launching the Emitter 3Ditor?&lt;br /&gt;I recommend that you start by going through some of the tutorials first.&lt;br /&gt;&lt;br /&gt;Or, just start fiddling; press INSERT on your keyboard after closing this prompt to create an emitter.</English>
+      </Key>
+      <Key ID="STR_HNEG_onDeleteParamsPreset">
+        <Original>Are you sure you want to remove the selected particle parameter preset?</Original>
+        <English>Are you sure you want to remove the selected particle parameter preset?</English>
+      </Key>
+      <Key ID="STR_HNEG_onDeleteColorPreset">
+        <Original>Are you sure you want to remove the selected color preset?</Original>
+        <English>Are you sure you want to remove the selected color preset?</English>
+      </Key>
+      <Key ID="STR_HNEG_onAttributeWithDamage">
+        <Original>You are aware that one or more of the selected particle parameters include damage effect?&lt;br /&gt;The entity may die/explode once the particles start emitting in preview/exported scenario..</Original>
+        <English>You are aware that one or more of the selected particle parameters include damage effect?&lt;br /&gt;The entity may die/explode once the particles start emitting in preview/exported scenario..</English>
+      </Key>
+      <Key ID="STR_HNEG_onAttachToWithDamage">
+        <Original>You are aware that one or more of the selected particle parameters include damage effect?&lt;br /&gt;The entity may die/explode once the particles start emitting in preview/exported scenario.&lt;br /&gt;&lt;br /&gt;Continue Anyway?</Original>
+        <English>You are aware that one or more of the selected particle parameters include damage effect?&lt;br /&gt;The entity may die/explode once the particles start emitting in preview/exported scenario.&lt;br /&gt;&lt;br /&gt;Continue Anyway?</English>
+      </Key>
+      <Key ID="STR_HNEG_savePresetNoName">
+        <Original>You have to name the preset before saving.</Original>
+        <English>You have to name the preset before saving.</English>
+      </Key>
+      <Key ID="STR_HNEG_savePresetAlreadyExists">
+        <Original>A preset with the name you gave already exists.&lt;br /&gt;&lt;br /&gt;Overwrite?</Original>
+        <English>A preset with the name you gave already exists.&lt;br /&gt;&lt;br /&gt;Overwrite?</English>
+      </Key>
+      <Key ID="STR_HNEG_onAttNameReserved">
+        <Original>One or more of the names you selected already taken by other emitter or entity.</Original>
+        <English>One or more of the names you selected already taken by other emitter or entity.</English>
+      </Key>
+      <Key ID="STR_HNEG_onNameReservedRename">
+        <Original>The name already in use by another emitter or entity.</Original>
+        <English>The name already in use by another emitter or entity.</English>
+      </Key>
+      <Key ID="STR_HNEG_onLoadMissionModulesFound">
+        <Original>There appears to be BIS effect modules present in the scenario (fire and/or smoke).&lt;br /&gt;Do you wish to import them into the Emitter 3Ditor?&lt;br /&gt;&lt;br /&gt;NOTE: if you do this the modules will be replaced with the Emitter 3Ditor emitters.</Original>
+        <English>There appears to be BIS effect modules present in the scenario (fire and/or smoke).&lt;br /&gt;Do you wish to import them into the Emitter 3Ditor?&lt;br /&gt;&lt;br /&gt;NOTE: if you do this the modules will be replaced with the Emitter 3Ditor emitters.</English>
+      </Key>
+      <Key ID="STR_HNEG_onLoadMissingProfile">
+        <Original>&lt;t size='2' shadow='2'&gt;Wrong profileNamespace!&lt;/t&gt;&lt;br /&gt;Current profile is not the profile used to create this scenario.&lt;br /&gt;&lt;br /&gt;You can not load this scenario with the Emitter 3Ditor loaded using this profile.&lt;br /&gt;To be able to load this scenario into Eden restart the game without Emitter 3Ditor mod.</Original>
+        <English>&lt;t size='2' shadow='2'&gt;Wrong profileNamespace!&lt;/t&gt;&lt;br /&gt;Current profile is not the profile used to create this scenario.&lt;br /&gt;&lt;br /&gt;You can not load this scenario with the Emitter 3Ditor loaded using this profile.&lt;br /&gt;To be able to load this scenario into Eden restart the game without the Emitter 3Ditor mod.</English>
+      </Key>
+      <Key ID="STR_HNEG_ahah">
+        <Original>You didn't say the magic word!</Original>
+        <English>You didn't say the magic word!</English>
+      </Key>
+      <Key ID="STR_HNEG_numberAsFirstCharInName">
+        <Original>Invalid character: Number as first character in an entity name is not allowed.</Original>
+        <English>Invalid character: Number as first character in an entity name is not allowed.</English>
+      </Key>
+      <Key ID="STR_HNEG_specCharInName">
+        <Original>Invalid character: Special characters in an entity name are not allowed. Only the underscore is allowed.</Original>
+        <English>Invalid character: Special characters in an entity name are not allowed. Only the underscore is allowed.</English>
+      </Key>
+      <Key ID="STR_HNEG_noDataVal">
+        <Original>&lt;t size='1.5' shadow='2'&gt;You're about to disable data verification&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;This disables data verification on the tool UI parameter fields.&lt;br /&gt;Are you sure want to continue?</Original>
+        <English>&lt;t size='1.5' shadow='2'&gt;You're about to disable data verification&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;This disables data verification on the tool UI parameter fields.&lt;br /&gt;Are you sure want to continue?</English>
+      </Key>
+      <Key ID="STR_HNEG_onLoadTutorialFail">
+        <Original>You can not access these tutorials unless the Emitter 3Ditor is launched.&lt;br /&gt;&lt;br /&gt;To do that select: Tools -&gt; h- -&gt; Emitter 3Ditor.</Original>
+        <English>You can not access these tutorials unless the Emitter 3Ditor is launched.&lt;br /&gt;&lt;br /&gt;To do that select: Tools -&gt; h- -&gt; Emitter 3Ditor.</English>
+      </Key>
+      <Key ID="STR_HNEG_onUnsupUIScale">
+        <Original>The UI scale setting you are using is not supported for the screen resolution you are using. Try smaller UI scale.</Original>
+        <English>The UI scale setting you are using is not supported for the screen resolution you are using. Try smaller UI scale.</English>
+      </Key>
+      <Key ID="STR_HNEG_onUnsupResolution">
+        <Original>The screen resolution you are using is not supported.&lt;br /&gt;&lt;br /&gt;Currently supported resolutions are:&lt;br /&gt;- 1920 x 1080 and up&lt;br /&gt;-1680 x 1050&lt;br /&gt;1600 x 900&lt;br /&gt;&lt;br /&gt;Your may or may not be supported in the future. NOTE that not all UI scales are supported either.</Original>
+        <English>The screen resolution you are using is not supported.&lt;br /&gt;&lt;br /&gt;Currently supported resolutions are:&lt;br /&gt;- 1920 x 1080 and up&lt;br /&gt;-1680 x 1050&lt;br /&gt;1600 x 900&lt;br /&gt;&lt;br /&gt;Your may or may not be supported in the future. NOTE that not all UI scales are supported either.</English>
+      </Key>
+    </Container>
+  </Package>
+</Project>
