@@ -1,4 +1,3 @@
-# emed_translations
 Emitter 3Ditor translations
 
 Here are the two stringtables used in Emitter 3Ditor.
