@@ -1,4 +1,4 @@
-Emitter 3Ditor translations
+Emitter 3Ditor for Arma3 translations
 
 Here are the two stringtables used in Emitter 3Ditor.
 They include the tooltips, tutorials and the messages/notes the tool may show.
